@@ -1,0 +1,24 @@
+[submodule "poky"]
+	path = src/sw/poky
+	url = https://git.yoctoproject.org/git/poky
+	branch = styhead
+[submodule "meta-intel-fpga"]
+	path = src/sw/meta-intel-fpga
+	url = https://git.yoctoproject.org/git/meta-intel-fpga
+	branch = styhead
+[submodule "meta-intel-fpga-refdes"]
+	path = src/sw/meta-intel-fpga-refdes
+	url = https://github.com/altera-opensource/meta-intel-fpga-refdes.git
+	branch = styhead
+[submodule "meta-openembedded"]
+	path = src/sw/meta-openembedded
+	url = https://git.openembedded.org/meta-openembedded
+	branch = styhead
+[submodule "meta-clang"]
+	path = src/sw/meta-clang
+	url = https://github.com/kraj/meta-clang.git
+	branch = styhead
+[submodule "meta-virtualization"]
+	path = src/sw/meta-virtualization
+	url = https://git.yoctoproject.org/git/meta-virtualization
+	branch = styhead

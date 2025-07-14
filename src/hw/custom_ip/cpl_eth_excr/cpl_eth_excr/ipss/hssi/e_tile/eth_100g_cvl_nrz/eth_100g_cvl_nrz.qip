@@ -1,0 +1,444 @@
+set_global_assignment -entity "eth_100g_cvl_nrz" -library "eth_100g_cvl_nrz" -name IP_TOOL_NAME "QsysPrimePro"
+set_global_assignment -entity "eth_100g_cvl_nrz" -library "eth_100g_cvl_nrz" -name IP_TOOL_VERSION "23.3"
+set_global_assignment -entity "eth_100g_cvl_nrz" -library "eth_100g_cvl_nrz" -name IP_TOOL_ENV "QsysPrimePro"
+set_global_assignment -entity "eth_100g_cvl_nrz" -library "eth_100g_cvl_nrz" -name IP_TOOL_VENDOR_NAME "Intel Corporation"
+set_global_assignment -entity "eth_100g_cvl_nrz" -library "eth_100g_cvl_nrz" -name IP_TOP_LEVEL_COMPONENT_NAME "alt_ehipc3_fm"
+set_global_assignment -library "eth_100g_cvl_nrz" -name SOPCINFO_FILE [file join $::quartus(qip_path) "eth_100g_cvl_nrz.sopcinfo"]
+set_global_assignment -entity "eth_100g_cvl_nrz" -library "eth_100g_cvl_nrz" -name SLD_INFO "QSYS_NAME eth_100g_cvl_nrz HAS_SOPCINFO 1 GENERATION_ID 0"
+set_global_assignment -library "eth_100g_cvl_nrz" -name MISC_FILE [file join $::quartus(qip_path) "eth_100g_cvl_nrz.cmp"]
+set_global_assignment -entity "eth_100g_cvl_nrz" -library "eth_100g_cvl_nrz" -name IP_TARGETED_DEVICE_FAMILY "Agilex 7"
+set_global_assignment -entity "eth_100g_cvl_nrz" -library "eth_100g_cvl_nrz" -name IP_GENERATED_DEVICE_FAMILY "{Agilex 7}"
+set_global_assignment -entity "eth_100g_cvl_nrz" -library "eth_100g_cvl_nrz" -name IP_QSYS_MODE "STANDALONE"
+set_global_assignment -name SYNTHESIS_ONLY_QIP ON
+set_global_assignment -library "eth_100g_cvl_nrz" -name MISC_FILE [file join $::quartus(qip_path) "../eth_100g_cvl_nrz.ip"]
+
+set_global_assignment -entity "eth_100g_cvl_nrz_xcvrnphy_fme_411_isub23q" -library "xcvrnphy_fme_411" -name IP_COMPONENT_NAME "ZXRoXzEwMGdfY3ZsX25yel94Y3ZybnBoeV9mbWVfNDExX2lzdWIyM3E="
+set_global_assignment -entity "eth_100g_cvl_nrz_xcvrnphy_fme_411_isub23q" -library "xcvrnphy_fme_411" -name IP_COMPONENT_DISPLAY_NAME "RS1UaWxlIFRyYW5zY2VpdmVyIE5hdGl2ZSBQSFkgSW50ZWwgQWdpbGV4IDcgRlBHQSBJUA=="
+set_global_assignment -entity "eth_100g_cvl_nrz_xcvrnphy_fme_411_isub23q" -library "xcvrnphy_fme_411" -name IP_COMPONENT_REPORT_HIERARCHY "Off"
+set_global_assignment -entity "eth_100g_cvl_nrz_xcvrnphy_fme_411_isub23q" -library "xcvrnphy_fme_411" -name IP_COMPONENT_INTERNAL "Off"
+set_global_assignment -entity "eth_100g_cvl_nrz_xcvrnphy_fme_411_isub23q" -library "xcvrnphy_fme_411" -name IP_COMPONENT_AUTHOR "SW50ZWwgQ29ycG9yYXRpb24="
+set_global_assignment -entity "eth_100g_cvl_nrz_xcvrnphy_fme_411_isub23q" -library "xcvrnphy_fme_411" -name IP_COMPONENT_VERSION "NC4xLjE="
+set_global_assignment -entity "eth_100g_cvl_nrz_xcvrnphy_fme_411_isub23q" -library "xcvrnphy_fme_411" -name IP_COMPONENT_GROUP "SW50ZXJmYWNlIFByb3RvY29scy9UcmFuc2NlaXZlciBQSFk="
+set_global_assignment -entity "eth_100g_cvl_nrz_xcvrnphy_fme_411_isub23q" -library "xcvrnphy_fme_411" -name IP_COMPONENT_DOCUMENTATION_LINK "aHR0cHM6Ly93d3cuaW50ZWwuY29tL2NvbnRlbnQvd3d3L3VzL2VuL2RvY3MvcHJvZ3JhbW1hYmxlLzY4MzcyMy8="
+set_global_assignment -entity "eth_100g_cvl_nrz_alt_ehipc3_fm_xcvrnphy_fme_2420_4f4z7my" -library "alt_ehipc3_fm_2420" -name IP_COMPONENT_NAME "ZXRoXzEwMGdfY3ZsX25yel9hbHRfZWhpcGMzX2ZtX3hjdnJucGh5X2ZtZV8yNDIwXzRmNHo3bXk="
+set_global_assignment -entity "eth_100g_cvl_nrz_alt_ehipc3_fm_xcvrnphy_fme_2420_4f4z7my" -library "alt_ehipc3_fm_2420" -name IP_COMPONENT_DISPLAY_NAME "ZXRoXzEwMGdfY3ZsX25yel9hbHRfZWhpcGMzX2ZtX3hjdnJucGh5X2ZtZV8yNDIwXzRmNHo3bXk="
+set_global_assignment -entity "eth_100g_cvl_nrz_alt_ehipc3_fm_xcvrnphy_fme_2420_4f4z7my" -library "alt_ehipc3_fm_2420" -name IP_COMPONENT_REPORT_HIERARCHY "Off"
+set_global_assignment -entity "eth_100g_cvl_nrz_alt_ehipc3_fm_xcvrnphy_fme_2420_4f4z7my" -library "alt_ehipc3_fm_2420" -name IP_COMPONENT_INTERNAL "Off"
+set_global_assignment -entity "eth_100g_cvl_nrz_alt_ehipc3_fm_xcvrnphy_fme_2420_4f4z7my" -library "alt_ehipc3_fm_2420" -name IP_COMPONENT_AUTHOR "QWx0ZXJhIENvcnBvcmF0aW9u"
+set_global_assignment -entity "eth_100g_cvl_nrz_alt_ehipc3_fm_xcvrnphy_fme_2420_4f4z7my" -library "alt_ehipc3_fm_2420" -name IP_COMPONENT_VERSION "MjQuMi4w"
+set_global_assignment -entity "altera_avalon_st_jtag_interface" -library "altera_jtag_dc_streaming_191" -name IP_COMPONENT_NAME "YWx0ZXJhX2F2YWxvbl9zdF9qdGFnX2ludGVyZmFjZQ=="
+set_global_assignment -entity "altera_avalon_st_jtag_interface" -library "altera_jtag_dc_streaming_191" -name IP_COMPONENT_DISPLAY_NAME "QXZhbG9uLVNUIEpUQUcgSW50ZXJmYWNl"
+set_global_assignment -entity "altera_avalon_st_jtag_interface" -library "altera_jtag_dc_streaming_191" -name IP_COMPONENT_REPORT_HIERARCHY "Off"
+set_global_assignment -entity "altera_avalon_st_jtag_interface" -library "altera_jtag_dc_streaming_191" -name IP_COMPONENT_INTERNAL "On"
+set_global_assignment -entity "altera_avalon_st_jtag_interface" -library "altera_jtag_dc_streaming_191" -name IP_COMPONENT_AUTHOR "SW50ZWwgQ29ycG9yYXRpb24="
+set_global_assignment -entity "altera_avalon_st_jtag_interface" -library "altera_jtag_dc_streaming_191" -name IP_COMPONENT_VERSION "MTkuMQ=="
+set_global_assignment -entity "altera_avalon_st_jtag_interface" -library "altera_jtag_dc_streaming_191" -name IP_COMPONENT_GROUP "SW50ZXJmYWNlIFByb3RvY29scy9TZXJpYWw="
+set_global_assignment -entity "altera_avalon_st_jtag_interface" -library "altera_jtag_dc_streaming_191" -name IP_COMPONENT_DOCUMENTATION_LINK "aHR0cDovL3d3dy5hbHRlcmEuY29tL2xpdGVyYXR1cmUvaGIvbmlvczIvcXRzX3FpaTU1MDA4LnBkZg=="
+set_global_assignment -entity "eth_100g_cvl_nrz_timing_adapter_1940_5ju4ddy" -library "timing_adapter_1940" -name IP_COMPONENT_NAME "ZXRoXzEwMGdfY3ZsX25yel90aW1pbmdfYWRhcHRlcl8xOTQwXzVqdTRkZHk="
+set_global_assignment -entity "eth_100g_cvl_nrz_timing_adapter_1940_5ju4ddy" -library "timing_adapter_1940" -name IP_COMPONENT_DISPLAY_NAME "QXZhbG9uIFN0cmVhbWluZyBUaW1pbmcgQWRhcHRlciBJbnRlbCBGUEdBIElQ"
+set_global_assignment -entity "eth_100g_cvl_nrz_timing_adapter_1940_5ju4ddy" -library "timing_adapter_1940" -name IP_COMPONENT_REPORT_HIERARCHY "Off"
+set_global_assignment -entity "eth_100g_cvl_nrz_timing_adapter_1940_5ju4ddy" -library "timing_adapter_1940" -name IP_COMPONENT_INTERNAL "Off"
+set_global_assignment -entity "eth_100g_cvl_nrz_timing_adapter_1940_5ju4ddy" -library "timing_adapter_1940" -name IP_COMPONENT_AUTHOR "SW50ZWwgQ29ycG9yYXRpb24="
+set_global_assignment -entity "eth_100g_cvl_nrz_timing_adapter_1940_5ju4ddy" -library "timing_adapter_1940" -name IP_COMPONENT_VERSION "MTkuNC4w"
+set_global_assignment -entity "eth_100g_cvl_nrz_timing_adapter_1940_5ju4ddy" -library "timing_adapter_1940" -name IP_COMPONENT_GROUP "QmFzaWMgRnVuY3Rpb25zL0JyaWRnZXMgYW5kIEFkYXB0b3JzL1N0cmVhbWluZw=="
+set_global_assignment -entity "eth_100g_cvl_nrz_timing_adapter_1940_5ju4ddy" -library "timing_adapter_1940" -name IP_COMPONENT_DOCUMENTATION_LINK "aHR0cHM6Ly9kb2N1bWVudGF0aW9uLmFsdGVyYS5jb20vIy9saW5rL213aDE0MDk5NjAxODE2NDEvbXdoMTQwOTk1ODgyODczMg=="
+set_global_assignment -entity "eth_100g_cvl_nrz_timing_adapter_1940_5ju4ddy" -library "timing_adapter_1940" -name IP_COMPONENT_DOCUMENTATION_LINK "aHR0cHM6Ly9kb2N1bWVudGF0aW9uLmFsdGVyYS5jb20vIy9saW5rL2hjbzE0MjE2OTgwNDIwODcvaGNvMTQyMTY5ODAxMzQwOA=="
+set_global_assignment -entity "eth_100g_cvl_nrz_altera_avalon_sc_fifo_1931_fzgstwy" -library "altera_avalon_sc_fifo_1931" -name IP_COMPONENT_NAME "ZXRoXzEwMGdfY3ZsX25yel9hbHRlcmFfYXZhbG9uX3NjX2ZpZm9fMTkzMV9memdzdHd5"
+set_global_assignment -entity "eth_100g_cvl_nrz_altera_avalon_sc_fifo_1931_fzgstwy" -library "altera_avalon_sc_fifo_1931" -name IP_COMPONENT_DISPLAY_NAME "QXZhbG9uIFN0cmVhbWluZyBTaW5nbGUgQ2xvY2sgRklGTyBJbnRlbCBGUEdBIElQ"
+set_global_assignment -entity "eth_100g_cvl_nrz_altera_avalon_sc_fifo_1931_fzgstwy" -library "altera_avalon_sc_fifo_1931" -name IP_COMPONENT_REPORT_HIERARCHY "Off"
+set_global_assignment -entity "eth_100g_cvl_nrz_altera_avalon_sc_fifo_1931_fzgstwy" -library "altera_avalon_sc_fifo_1931" -name IP_COMPONENT_INTERNAL "Off"
+set_global_assignment -entity "eth_100g_cvl_nrz_altera_avalon_sc_fifo_1931_fzgstwy" -library "altera_avalon_sc_fifo_1931" -name IP_COMPONENT_AUTHOR "SW50ZWwgQ29ycG9yYXRpb24="
+set_global_assignment -entity "eth_100g_cvl_nrz_altera_avalon_sc_fifo_1931_fzgstwy" -library "altera_avalon_sc_fifo_1931" -name IP_COMPONENT_VERSION "MTkuMy4x"
+set_global_assignment -entity "eth_100g_cvl_nrz_altera_avalon_sc_fifo_1931_fzgstwy" -library "altera_avalon_sc_fifo_1931" -name IP_COMPONENT_GROUP "QmFzaWMgRnVuY3Rpb25zL09uIENoaXAgTWVtb3J5"
+set_global_assignment -entity "eth_100g_cvl_nrz_altera_avalon_sc_fifo_1931_fzgstwy" -library "altera_avalon_sc_fifo_1931" -name IP_COMPONENT_DOCUMENTATION_LINK "aHR0cHM6Ly9kb2N1bWVudGF0aW9uLmFsdGVyYS5jb20vIy9saW5rL3NmbzE0MDA3ODc5NTI5MzIvaWdhMTQwMTM5NTU2Mzc3OQ=="
+set_global_assignment -entity "eth_100g_cvl_nrz_altera_avalon_sc_fifo_1931_fzgstwy" -library "altera_avalon_sc_fifo_1931" -name IP_COMPONENT_DOCUMENTATION_LINK "aHR0cHM6Ly9kb2N1bWVudGF0aW9uLmFsdGVyYS5jb20vIy9saW5rL2hjbzE0MjE2OTgwNDIwODcvaGNvMTQyMTY5NzY4OTMwMA=="
+set_global_assignment -entity "altera_avalon_st_bytes_to_packets" -library "altera_avalon_st_bytes_to_packets_1922" -name IP_COMPONENT_NAME "YWx0ZXJhX2F2YWxvbl9zdF9ieXRlc190b19wYWNrZXRz"
+set_global_assignment -entity "altera_avalon_st_bytes_to_packets" -library "altera_avalon_st_bytes_to_packets_1922" -name IP_COMPONENT_DISPLAY_NAME "QXZhbG9uLVNUIEJ5dGVzIHRvIFBhY2tldHMgQ29udmVydGVyIEludGVsIEZQR0EgSVA="
+set_global_assignment -entity "altera_avalon_st_bytes_to_packets" -library "altera_avalon_st_bytes_to_packets_1922" -name IP_COMPONENT_REPORT_HIERARCHY "Off"
+set_global_assignment -entity "altera_avalon_st_bytes_to_packets" -library "altera_avalon_st_bytes_to_packets_1922" -name IP_COMPONENT_INTERNAL "Off"
+set_global_assignment -entity "altera_avalon_st_bytes_to_packets" -library "altera_avalon_st_bytes_to_packets_1922" -name IP_COMPONENT_AUTHOR "SW50ZWwgQ29ycG9yYXRpb24="
+set_global_assignment -entity "altera_avalon_st_bytes_to_packets" -library "altera_avalon_st_bytes_to_packets_1922" -name IP_COMPONENT_VERSION "MTkuMi4y"
+set_global_assignment -entity "altera_avalon_st_bytes_to_packets" -library "altera_avalon_st_bytes_to_packets_1922" -name IP_COMPONENT_DESCRIPTION "QXZhbG9uLVNUIEJ5dGVzIHRvIFBhY2tldHMgQ29udmVydGVy"
+set_global_assignment -entity "altera_avalon_st_bytes_to_packets" -library "altera_avalon_st_bytes_to_packets_1922" -name IP_COMPONENT_GROUP "QmFzaWMgRnVuY3Rpb25zL0JyaWRnZXMgYW5kIEFkYXB0b3JzL1N0cmVhbWluZw=="
+set_global_assignment -entity "altera_avalon_st_bytes_to_packets" -library "altera_avalon_st_bytes_to_packets_1922" -name IP_COMPONENT_DOCUMENTATION_LINK "aHR0cDovL3d3dy5hbHRlcmEuY29tL2xpdGVyYXR1cmUvaGIvbmlvczIvcXRzX3FpaTU1MDEyLnBkZg=="
+set_global_assignment -entity "altera_avalon_st_bytes_to_packets" -library "altera_avalon_st_bytes_to_packets_1922" -name IP_COMPONENT_DOCUMENTATION_LINK "aHR0cHM6Ly9kb2N1bWVudGF0aW9uLmFsdGVyYS5jb20vIy9saW5rL3NmbzE0MDA3ODc5NTI5MzIvaWdhMTQwMTM5NjczMDE3OQ=="
+set_global_assignment -entity "altera_avalon_st_bytes_to_packets" -library "altera_avalon_st_bytes_to_packets_1922" -name IP_COMPONENT_DOCUMENTATION_LINK "aHR0cHM6Ly9kb2N1bWVudGF0aW9uLmFsdGVyYS5jb20vIy9saW5rL2hjbzE0MjE2OTgwNDIwODcvaGNvMTQyMTY5NzY4OTMwMA=="
+set_global_assignment -entity "altera_avalon_st_packets_to_bytes" -library "altera_avalon_st_packets_to_bytes_1922" -name IP_COMPONENT_NAME "YWx0ZXJhX2F2YWxvbl9zdF9wYWNrZXRzX3RvX2J5dGVz"
+set_global_assignment -entity "altera_avalon_st_packets_to_bytes" -library "altera_avalon_st_packets_to_bytes_1922" -name IP_COMPONENT_DISPLAY_NAME "QXZhbG9uLVNUIFBhY2tldHMgdG8gQnl0ZXMgQ29udmVydGVyIEludGVsIEZQR0EgSVA="
+set_global_assignment -entity "altera_avalon_st_packets_to_bytes" -library "altera_avalon_st_packets_to_bytes_1922" -name IP_COMPONENT_REPORT_HIERARCHY "Off"
+set_global_assignment -entity "altera_avalon_st_packets_to_bytes" -library "altera_avalon_st_packets_to_bytes_1922" -name IP_COMPONENT_INTERNAL "Off"
+set_global_assignment -entity "altera_avalon_st_packets_to_bytes" -library "altera_avalon_st_packets_to_bytes_1922" -name IP_COMPONENT_AUTHOR "SW50ZWwgQ29ycG9yYXRpb24="
+set_global_assignment -entity "altera_avalon_st_packets_to_bytes" -library "altera_avalon_st_packets_to_bytes_1922" -name IP_COMPONENT_VERSION "MTkuMi4y"
+set_global_assignment -entity "altera_avalon_st_packets_to_bytes" -library "altera_avalon_st_packets_to_bytes_1922" -name IP_COMPONENT_DESCRIPTION "QXZhbG9uLVNUIFBhY2tldHMgdG8gQnl0ZXMgQ29udmVydGVy"
+set_global_assignment -entity "altera_avalon_st_packets_to_bytes" -library "altera_avalon_st_packets_to_bytes_1922" -name IP_COMPONENT_GROUP "QmFzaWMgRnVuY3Rpb25zL0JyaWRnZXMgYW5kIEFkYXB0b3JzL1N0cmVhbWluZw=="
+set_global_assignment -entity "altera_avalon_st_packets_to_bytes" -library "altera_avalon_st_packets_to_bytes_1922" -name IP_COMPONENT_DOCUMENTATION_LINK "aHR0cDovL3d3dy5hbHRlcmEuY29tL2xpdGVyYXR1cmUvaGIvbmlvczIvcXRzX3FpaTU1MDEyLnBkZg=="
+set_global_assignment -entity "altera_avalon_st_packets_to_bytes" -library "altera_avalon_st_packets_to_bytes_1922" -name IP_COMPONENT_DOCUMENTATION_LINK "aHR0cHM6Ly9kb2N1bWVudGF0aW9uLmFsdGVyYS5jb20vIy9saW5rL3NmbzE0MDA3ODc5NTI5MzIvaWdhMTQwMTM5NjczMDE3OQ=="
+set_global_assignment -entity "altera_avalon_st_packets_to_bytes" -library "altera_avalon_st_packets_to_bytes_1922" -name IP_COMPONENT_DOCUMENTATION_LINK "aHR0cHM6Ly9kb2N1bWVudGF0aW9uLmFsdGVyYS5jb20vIy9saW5rL2hjbzE0MjE2OTgwNDIwODcvaGNvMTQyMTY5NzY4OTMwMA=="
+set_global_assignment -entity "altera_avalon_packets_to_master" -library "altera_avalon_packets_to_master_1922" -name IP_COMPONENT_NAME "YWx0ZXJhX2F2YWxvbl9wYWNrZXRzX3RvX21hc3Rlcg=="
+set_global_assignment -entity "altera_avalon_packets_to_master" -library "altera_avalon_packets_to_master_1922" -name IP_COMPONENT_DISPLAY_NAME "QXZhbG9uIFBhY2tldHMgdG8gVHJhbnNhY3Rpb24gQ29udmVydGVyIEludGVsIEZQR0EgSVA="
+set_global_assignment -entity "altera_avalon_packets_to_master" -library "altera_avalon_packets_to_master_1922" -name IP_COMPONENT_REPORT_HIERARCHY "Off"
+set_global_assignment -entity "altera_avalon_packets_to_master" -library "altera_avalon_packets_to_master_1922" -name IP_COMPONENT_INTERNAL "Off"
+set_global_assignment -entity "altera_avalon_packets_to_master" -library "altera_avalon_packets_to_master_1922" -name IP_COMPONENT_AUTHOR "SW50ZWwgQ29ycG9yYXRpb24="
+set_global_assignment -entity "altera_avalon_packets_to_master" -library "altera_avalon_packets_to_master_1922" -name IP_COMPONENT_VERSION "MTkuMi4y"
+set_global_assignment -entity "altera_avalon_packets_to_master" -library "altera_avalon_packets_to_master_1922" -name IP_COMPONENT_DESCRIPTION "QXZhbG9uIFBhY2tldHMgdG8gVHJhbnNhY3Rpb24gQ29udmVydGVy"
+set_global_assignment -entity "altera_avalon_packets_to_master" -library "altera_avalon_packets_to_master_1922" -name IP_COMPONENT_GROUP "QmFzaWMgRnVuY3Rpb25zL0JyaWRnZXMgYW5kIEFkYXB0b3JzL1N0cmVhbWluZw=="
+set_global_assignment -entity "altera_avalon_packets_to_master" -library "altera_avalon_packets_to_master_1922" -name IP_COMPONENT_DOCUMENTATION_LINK "aHR0cDovL3d3dy5hbHRlcmEuY29tL2xpdGVyYXR1cmUvaGIvbmlvczIvcXRzX3FpaTU1MDEzLnBkZg=="
+set_global_assignment -entity "altera_avalon_packets_to_master" -library "altera_avalon_packets_to_master_1922" -name IP_COMPONENT_DOCUMENTATION_LINK "aHR0cHM6Ly9kb2N1bWVudGF0aW9uLmFsdGVyYS5jb20vIy9saW5rL3NmbzE0MDA3ODc5NTI5MzIvaWdhMTQwMTM5Nzg2MTk4OA=="
+set_global_assignment -entity "altera_avalon_packets_to_master" -library "altera_avalon_packets_to_master_1922" -name IP_COMPONENT_DOCUMENTATION_LINK "aHR0cHM6Ly9kb2N1bWVudGF0aW9uLmFsdGVyYS5jb20vIy9saW5rL2hjbzE0MjE2OTgwNDIwODcvaGNvMTQyMTY5NzY4OTMwMA=="
+set_global_assignment -entity "eth_100g_cvl_nrz_channel_adapter_1921_5wnzrci" -library "channel_adapter_1921" -name IP_COMPONENT_NAME "ZXRoXzEwMGdfY3ZsX25yel9jaGFubmVsX2FkYXB0ZXJfMTkyMV81d256cmNp"
+set_global_assignment -entity "eth_100g_cvl_nrz_channel_adapter_1921_5wnzrci" -library "channel_adapter_1921" -name IP_COMPONENT_DISPLAY_NAME "QXZhbG9uIFN0cmVhbWluZyBDaGFubmVsIEFkYXB0ZXIgSW50ZWwgRlBHQSBJUA=="
+set_global_assignment -entity "eth_100g_cvl_nrz_channel_adapter_1921_5wnzrci" -library "channel_adapter_1921" -name IP_COMPONENT_REPORT_HIERARCHY "Off"
+set_global_assignment -entity "eth_100g_cvl_nrz_channel_adapter_1921_5wnzrci" -library "channel_adapter_1921" -name IP_COMPONENT_INTERNAL "Off"
+set_global_assignment -entity "eth_100g_cvl_nrz_channel_adapter_1921_5wnzrci" -library "channel_adapter_1921" -name IP_COMPONENT_AUTHOR "SW50ZWwgQ29ycG9yYXRpb24="
+set_global_assignment -entity "eth_100g_cvl_nrz_channel_adapter_1921_5wnzrci" -library "channel_adapter_1921" -name IP_COMPONENT_VERSION "MTkuMi4x"
+set_global_assignment -entity "eth_100g_cvl_nrz_channel_adapter_1921_5wnzrci" -library "channel_adapter_1921" -name IP_COMPONENT_GROUP "QmFzaWMgRnVuY3Rpb25zL0JyaWRnZXMgYW5kIEFkYXB0b3JzL1N0cmVhbWluZw=="
+set_global_assignment -entity "eth_100g_cvl_nrz_channel_adapter_1921_5wnzrci" -library "channel_adapter_1921" -name IP_COMPONENT_DOCUMENTATION_LINK "aHR0cHM6Ly9kb2N1bWVudGF0aW9uLmFsdGVyYS5jb20vIy9saW5rL213aDE0MDk5NjAxODE2NDEvbXdoMTQwOTk1ODgyODczMg=="
+set_global_assignment -entity "eth_100g_cvl_nrz_channel_adapter_1921_5wnzrci" -library "channel_adapter_1921" -name IP_COMPONENT_DOCUMENTATION_LINK "aHR0cHM6Ly9kb2N1bWVudGF0aW9uLmFsdGVyYS5jb20vIy9saW5rL2hjbzE0MjE2OTgwNDIwODcvaGNvMTQyMTY5ODAxMzQwOA=="
+set_global_assignment -entity "eth_100g_cvl_nrz_channel_adapter_1921_fkajlia" -library "channel_adapter_1921" -name IP_COMPONENT_NAME "ZXRoXzEwMGdfY3ZsX25yel9jaGFubmVsX2FkYXB0ZXJfMTkyMV9ma2FqbGlh"
+set_global_assignment -entity "eth_100g_cvl_nrz_channel_adapter_1921_fkajlia" -library "channel_adapter_1921" -name IP_COMPONENT_DISPLAY_NAME "QXZhbG9uIFN0cmVhbWluZyBDaGFubmVsIEFkYXB0ZXIgSW50ZWwgRlBHQSBJUA=="
+set_global_assignment -entity "eth_100g_cvl_nrz_channel_adapter_1921_fkajlia" -library "channel_adapter_1921" -name IP_COMPONENT_REPORT_HIERARCHY "Off"
+set_global_assignment -entity "eth_100g_cvl_nrz_channel_adapter_1921_fkajlia" -library "channel_adapter_1921" -name IP_COMPONENT_INTERNAL "Off"
+set_global_assignment -entity "eth_100g_cvl_nrz_channel_adapter_1921_fkajlia" -library "channel_adapter_1921" -name IP_COMPONENT_AUTHOR "SW50ZWwgQ29ycG9yYXRpb24="
+set_global_assignment -entity "eth_100g_cvl_nrz_channel_adapter_1921_fkajlia" -library "channel_adapter_1921" -name IP_COMPONENT_VERSION "MTkuMi4x"
+set_global_assignment -entity "eth_100g_cvl_nrz_channel_adapter_1921_fkajlia" -library "channel_adapter_1921" -name IP_COMPONENT_GROUP "QmFzaWMgRnVuY3Rpb25zL0JyaWRnZXMgYW5kIEFkYXB0b3JzL1N0cmVhbWluZw=="
+set_global_assignment -entity "eth_100g_cvl_nrz_channel_adapter_1921_fkajlia" -library "channel_adapter_1921" -name IP_COMPONENT_DOCUMENTATION_LINK "aHR0cHM6Ly9kb2N1bWVudGF0aW9uLmFsdGVyYS5jb20vIy9saW5rL213aDE0MDk5NjAxODE2NDEvbXdoMTQwOTk1ODgyODczMg=="
+set_global_assignment -entity "eth_100g_cvl_nrz_channel_adapter_1921_fkajlia" -library "channel_adapter_1921" -name IP_COMPONENT_DOCUMENTATION_LINK "aHR0cHM6Ly9kb2N1bWVudGF0aW9uLmFsdGVyYS5jb20vIy9saW5rL2hjbzE0MjE2OTgwNDIwODcvaGNvMTQyMTY5ODAxMzQwOA=="
+set_global_assignment -entity "altera_reset_controller" -library "altera_reset_controller_1922" -name IP_COMPONENT_NAME "YWx0ZXJhX3Jlc2V0X2NvbnRyb2xsZXI="
+set_global_assignment -entity "altera_reset_controller" -library "altera_reset_controller_1922" -name IP_COMPONENT_DISPLAY_NAME "TWVybGluIFJlc2V0IENvbnRyb2xsZXIgSW50ZWwgRlBHQSBJUA=="
+set_global_assignment -entity "altera_reset_controller" -library "altera_reset_controller_1922" -name IP_COMPONENT_REPORT_HIERARCHY "Off"
+set_global_assignment -entity "altera_reset_controller" -library "altera_reset_controller_1922" -name IP_COMPONENT_INTERNAL "Off"
+set_global_assignment -entity "altera_reset_controller" -library "altera_reset_controller_1922" -name IP_COMPONENT_AUTHOR "SW50ZWwgQ29ycG9yYXRpb24="
+set_global_assignment -entity "altera_reset_controller" -library "altera_reset_controller_1922" -name IP_COMPONENT_VERSION "MTkuMi4y"
+set_global_assignment -entity "altera_reset_controller" -library "altera_reset_controller_1922" -name IP_COMPONENT_DESCRIPTION "Rm9yIHN5c3RlbXMgd2l0aCBtdWx0aXBsZSByZXNldCBpbnB1dHMsIHRoZSBNZXJsaW4gUmVzZXQgQ29udHJvbGxlciBPUnMgYWxsIHJlc2V0IGlucHV0cyBhbmQgZ2VuZXJhdGVzIGEgc2luZ2xlIHJlc2V0IG91dHB1dC4="
+set_global_assignment -entity "altera_reset_controller" -library "altera_reset_controller_1922" -name IP_COMPONENT_GROUP "QmFzaWMgRnVuY3Rpb25zL0Nsb2NrczsgUExMcyBhbmQgUmVzZXRz"
+set_global_assignment -entity "altera_reset_controller" -library "altera_reset_controller_1922" -name IP_COMPONENT_DOCUMENTATION_LINK "aHR0cHM6Ly93d3cuaW50ZWwuY29tL2NvbnRlbnQvd3d3L3VzL2VuL3Byb2dyYW1tYWJsZS9kb2N1bWVudGF0aW9uL3pjbjE1MTM5ODcyODI5MzUuaHRtbCNtd2gxNDA5OTU4ODI4NzMy"
+set_global_assignment -entity "altera_reset_controller" -library "altera_reset_controller_1922" -name IP_COMPONENT_DOCUMENTATION_LINK "aHR0cHM6Ly93d3cuaW50ZWwuY29tL2NvbnRlbnQvZGFtL3d3dy9wcm9ncmFtbWFibGUvdXMvZW4vcGRmcy9saXRlcmF0dXJlL3VnL3VnLXFwcC1wbGF0Zm9ybS1kZXNpZ25lci5wZGY="
+set_global_assignment -entity "altera_reset_controller" -library "altera_reset_controller_1922" -name IP_COMPONENT_DOCUMENTATION_LINK "aHR0cHM6Ly93d3cuaW50ZWwuY29tL2NvbnRlbnQvd3d3L3VzL2VuL3Byb2dyYW1tYWJsZS9kb2N1bWVudGF0aW9uL2hjbzE0MTY4MzYxNDU1NTUuaHRtbCNoY28xNDE2ODM2NjUzMjIx"
+set_global_assignment -entity "eth_100g_cvl_nrz_altera_jtag_avalon_master_191_3zppvky" -library "altera_jtag_avalon_master_191" -name IP_COMPONENT_NAME "ZXRoXzEwMGdfY3ZsX25yel9hbHRlcmFfanRhZ19hdmFsb25fbWFzdGVyXzE5MV8zenBwdmt5"
+set_global_assignment -entity "eth_100g_cvl_nrz_altera_jtag_avalon_master_191_3zppvky" -library "altera_jtag_avalon_master_191" -name IP_COMPONENT_DISPLAY_NAME "SlRBRyB0byBBdmFsb24gTWFzdGVyIEJyaWRnZSBJbnRlbCBGUEdBIElQ"
+set_global_assignment -entity "eth_100g_cvl_nrz_altera_jtag_avalon_master_191_3zppvky" -library "altera_jtag_avalon_master_191" -name IP_COMPONENT_REPORT_HIERARCHY "Off"
+set_global_assignment -entity "eth_100g_cvl_nrz_altera_jtag_avalon_master_191_3zppvky" -library "altera_jtag_avalon_master_191" -name IP_COMPONENT_INTERNAL "Off"
+set_global_assignment -entity "eth_100g_cvl_nrz_altera_jtag_avalon_master_191_3zppvky" -library "altera_jtag_avalon_master_191" -name IP_COMPONENT_AUTHOR "SW50ZWwgQ29ycG9yYXRpb24="
+set_global_assignment -entity "eth_100g_cvl_nrz_altera_jtag_avalon_master_191_3zppvky" -library "altera_jtag_avalon_master_191" -name IP_COMPONENT_VERSION "MTkuMQ=="
+set_global_assignment -entity "eth_100g_cvl_nrz_altera_jtag_avalon_master_191_3zppvky" -library "altera_jtag_avalon_master_191" -name IP_COMPONENT_DESCRIPTION "VGhlIEpUQUcgdG8gQXZhbG9uIE1hc3RlciBCcmlkZ2UgaXMgYSBjb2xsZWN0aW9uIG9mIHByZS13aXJlZCBjb21wb25lbnRzIHRoYXQgcHJvdmlkZSBhbiBBdmFsb24gTWFzdGVyIHVzaW5nIHRoZSBuZXcgSlRBRyBjaGFubmVsLg=="
+set_global_assignment -entity "eth_100g_cvl_nrz_altera_jtag_avalon_master_191_3zppvky" -library "altera_jtag_avalon_master_191" -name IP_COMPONENT_GROUP "QmFzaWMgRnVuY3Rpb25zL0JyaWRnZXMgYW5kIEFkYXB0b3JzL01lbW9yeSBNYXBwZWQ="
+set_global_assignment -entity "eth_100g_cvl_nrz_altera_jtag_avalon_master_191_3zppvky" -library "altera_jtag_avalon_master_191" -name IP_COMPONENT_DOCUMENTATION_LINK "aHR0cDovL3d3dy5hbHRlcmEuY29tL2xpdGVyYXR1cmUvaGIvbmlvczIvcXRzX3FpaTU1MDExLnBkZg=="
+set_global_assignment -entity "eth_100g_cvl_nrz_altera_jtag_avalon_master_191_3zppvky" -library "altera_jtag_avalon_master_191" -name IP_COMPONENT_DOCUMENTATION_LINK "aHR0cHM6Ly9kb2N1bWVudGF0aW9uLmFsdGVyYS5jb20vIy9saW5rL3NmbzE0MDA3ODc5NTI5MzIvaWdhMTQwMTM5NjU0ODE3MA=="
+set_global_assignment -entity "alt_ehipc3_fm_jtag_int" -library "alt_ehipc3_fm_2420" -name IP_COMPONENT_NAME "YWx0X2VoaXBjM19mbV9qdGFnX2ludA=="
+set_global_assignment -entity "alt_ehipc3_fm_jtag_int" -library "alt_ehipc3_fm_2420" -name IP_COMPONENT_DISPLAY_NAME "YWx0X2VoaXBjM19mbV9qdGFnX2ludA=="
+set_global_assignment -entity "alt_ehipc3_fm_jtag_int" -library "alt_ehipc3_fm_2420" -name IP_COMPONENT_REPORT_HIERARCHY "Off"
+set_global_assignment -entity "alt_ehipc3_fm_jtag_int" -library "alt_ehipc3_fm_2420" -name IP_COMPONENT_INTERNAL "Off"
+set_global_assignment -entity "alt_ehipc3_fm_jtag_int" -library "alt_ehipc3_fm_2420" -name IP_COMPONENT_AUTHOR "QWx0ZXJhIENvcnBvcmF0aW9u"
+set_global_assignment -entity "alt_ehipc3_fm_jtag_int" -library "alt_ehipc3_fm_2420" -name IP_COMPONENT_VERSION "MjQuMi4w"
+set_global_assignment -entity "eth_100g_cvl_nrz_alt_ehipc3_fm_2420_salfkeq" -library "alt_ehipc3_fm_2420" -name IP_COMPONENT_NAME "ZXRoXzEwMGdfY3ZsX25yel9hbHRfZWhpcGMzX2ZtXzI0MjBfc2FsZmtlcQ=="
+set_global_assignment -entity "eth_100g_cvl_nrz_alt_ehipc3_fm_2420_salfkeq" -library "alt_ehipc3_fm_2420" -name IP_COMPONENT_DISPLAY_NAME "RS1UaWxlIEV0aGVybmV0IElQIGZvciBJbnRlbCBBZ2lsZXggNyBGUEdB"
+set_global_assignment -entity "eth_100g_cvl_nrz_alt_ehipc3_fm_2420_salfkeq" -library "alt_ehipc3_fm_2420" -name IP_COMPONENT_REPORT_HIERARCHY "Off"
+set_global_assignment -entity "eth_100g_cvl_nrz_alt_ehipc3_fm_2420_salfkeq" -library "alt_ehipc3_fm_2420" -name IP_COMPONENT_INTERNAL "Off"
+set_global_assignment -entity "eth_100g_cvl_nrz_alt_ehipc3_fm_2420_salfkeq" -library "alt_ehipc3_fm_2420" -name IP_COMPONENT_AUTHOR "SW50ZWwgQ29ycG9yYXRpb24="
+set_global_assignment -entity "eth_100g_cvl_nrz_alt_ehipc3_fm_2420_salfkeq" -library "alt_ehipc3_fm_2420" -name IP_COMPONENT_VERSION "MjQuMi4w"
+set_global_assignment -entity "eth_100g_cvl_nrz_alt_ehipc3_fm_2420_salfkeq" -library "alt_ehipc3_fm_2420" -name IP_COMPONENT_DESCRIPTION "RS1UaWxlIEhhcmQgSVAgZm9yIEV0aGVybmV0"
+set_global_assignment -entity "eth_100g_cvl_nrz_alt_ehipc3_fm_2420_salfkeq" -library "alt_ehipc3_fm_2420" -name IP_COMPONENT_GROUP "SW50ZXJmYWNlIFByb3RvY29scy9FdGhlcm5ldA=="
+set_global_assignment -entity "eth_100g_cvl_nrz_alt_ehipc3_fm_2420_salfkeq" -library "alt_ehipc3_fm_2420" -name IP_COMPONENT_DOCUMENTATION_LINK "aHR0cHM6Ly93d3cuaW50ZWwuY29tL2NvbnRlbnQvd3d3L3VzL2VuL2RvY3MvcHJvZ3JhbW1hYmxlLzY4MzQ2OC5odG1s"
+set_global_assignment -entity "eth_100g_cvl_nrz_alt_ehipc3_fm_2420_salfkeq" -library "alt_ehipc3_fm_2420" -name IP_COMPONENT_DOCUMENTATION_LINK "aHR0cHM6Ly93d3cuaW50ZWwuY29tL2NvbnRlbnQvd3d3L3VzL2VuL2RvY3MvcHJvZ3JhbW1hYmxlLzY4Mzg2MC5odG1s"
+set_global_assignment -entity "eth_100g_cvl_nrz_alt_ehipc3_fm_2420_salfkeq" -library "alt_ehipc3_fm_2420" -name IP_COMPONENT_DOCUMENTATION_LINK "aHR0cHM6Ly93d3cuaW50ZWwuY29tL2NvbnRlbnQvd3d3L3VzL2VuL2RvY3MvcHJvZ3JhbW1hYmxlLzY4MzU4Mi5odG1s"
+set_global_assignment -entity "eth_100g_cvl_nrz" -library "eth_100g_cvl_nrz" -name IP_COMPONENT_NAME "ZXRoXzEwMGdfY3ZsX25yeg=="
+set_global_assignment -entity "eth_100g_cvl_nrz" -library "eth_100g_cvl_nrz" -name IP_COMPONENT_DISPLAY_NAME "c3lzdGVt"
+set_global_assignment -entity "eth_100g_cvl_nrz" -library "eth_100g_cvl_nrz" -name IP_COMPONENT_REPORT_HIERARCHY "On"
+set_global_assignment -entity "eth_100g_cvl_nrz" -library "eth_100g_cvl_nrz" -name IP_COMPONENT_INTERNAL "Off"
+set_global_assignment -entity "eth_100g_cvl_nrz" -library "eth_100g_cvl_nrz" -name IP_COMPONENT_AUTHOR "SW50ZWwgQ29ycG9yYXRpb24="
+set_global_assignment -entity "eth_100g_cvl_nrz" -library "eth_100g_cvl_nrz" -name IP_COMPONENT_VERSION "MS4w"
+
+
+set_global_assignment -library "xcvrnphy_fme_411" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "xcvrnphy_fme_411/synth/alt_xcvr_arbiter.sv"]
+set_global_assignment -library "xcvrnphy_fme_411" -name VERILOG_FILE [file join $::quartus(qip_path) "xcvrnphy_fme_411/synth/altera_std_synchronizer_nocut.v"]
+set_global_assignment -library "xcvrnphy_fme_411" -name SOURCE_FILE [file join $::quartus(qip_path) "xcvrnphy_fme_411/synth/serdes.firmware.rom"]
+set_global_assignment -library "xcvrnphy_fme_411" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "xcvrnphy_fme_411/synth/alt_xcvr_resync_std.sv"]
+set_global_assignment -library "xcvrnphy_fme_411" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "xcvrnphy_fme_411/synth/altera_xcvr_native_s10_functions_h.sv"]
+set_global_assignment -library "xcvrnphy_fme_411" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "xcvrnphy_fme_411/synth/s10_avmm_h_etile.sv"]
+set_global_assignment -library "xcvrnphy_fme_411" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "xcvrnphy_fme_411/synth/alt_xcvr_native_avmm_csr_etile.sv"]
+set_global_assignment -library "xcvrnphy_fme_411" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "xcvrnphy_fme_411/synth/alt_xcvr_native_rcfg_arb.sv"]
+set_global_assignment -library "xcvrnphy_fme_411" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "xcvrnphy_fme_411/synth/alt_xcvr_native_rx_reset_seq_etile.sv"]
+set_global_assignment -library "xcvrnphy_fme_411" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "xcvrnphy_fme_411/synth/alt_xcvr_native_tx_reset_seq_etile.sv"]
+set_global_assignment -library "xcvrnphy_fme_411" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "xcvrnphy_fme_411/synth/alt_xcvr_reset_counter_s10_etile.sv"]
+set_global_assignment -library "xcvrnphy_fme_411" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "xcvrnphy_fme_411/synth/altera_xcvr_reset_control_etile.sv"]
+set_global_assignment -library "xcvrnphy_fme_411" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "xcvrnphy_fme_411/synth/altera_xcvr_reset_top_etile.sv"]
+set_global_assignment -library "xcvrnphy_fme_411" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "xcvrnphy_fme_411/synth/altera_xcvr_ical_int_table.sv"]
+set_global_assignment -library "xcvrnphy_fme_411" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "xcvrnphy_fme_411/synth/altera_xcvr_ical_top_etile.sv"]
+set_global_assignment -library "xcvrnphy_fme_411" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "xcvrnphy_fme_411/synth/altera_xcvr_ical_etile.sv"]
+set_global_assignment -library "xcvrnphy_fme_411" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "xcvrnphy_fme_411/synth/altera_xcvr_pma_spico_reset_etile.sv"]
+set_global_assignment -library "xcvrnphy_fme_411" -name SOURCE_FILE [file join $::quartus(qip_path) "xcvrnphy_fme_411/synth/ical_recipe_map.txt"]
+set_global_assignment -library "xcvrnphy_fme_411" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "xcvrnphy_fme_411/synth/altera_xcvr_native_dskw_pam4.sv"]
+set_global_assignment -library "xcvrnphy_fme_411" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "xcvrnphy_fme_411/synth/alt_xcvr_resync_etile.sv"]
+set_global_assignment -library "xcvrnphy_fme_411" -name VERILOG_FILE [file join $::quartus(qip_path) "xcvrnphy_fme_411/synth/altera_std_synchronizer_nocut_etile.v"]
+set_global_assignment -library "xcvrnphy_fme_411" -name SOURCE_FILE [file join $::quartus(qip_path) "xcvrnphy_fme_411/synth/plain_files.txt"]
+set_global_assignment -library "xcvrnphy_fme_411" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "xcvrnphy_fme_411/synth/alt_xcvr_native_rcp_load_rom_params_isub23q.sv"]
+set_global_assignment -library "xcvrnphy_fme_411" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "xcvrnphy_fme_411/synth/alt_xcvr_native_ical_strm_functions.sv"]
+set_global_assignment -library "xcvrnphy_fme_411" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "xcvrnphy_fme_411/synth/eth_100g_cvl_nrz_xcvrnphy_fme_411_isub23q.sv"]
+set_instance_assignment -entity "eth_100g_cvl_nrz_xcvrnphy_fme_411_isub23q" -library "xcvrnphy_fme_411" -name SDC_ENTITY_FILE [file join $::quartus(qip_path) "xcvrnphy_fme_411/synth/eth_100g_cvl_nrz_xcvrnphy_fme_411_isub23q.sdc"]
+set_instance_assignment -entity "eth_100g_cvl_nrz_xcvrnphy_fme_411_isub23q" -library "xcvrnphy_fme_411" -name TCL_ENTITY_FILE [file join $::quartus(qip_path) "xcvrnphy_fme_411/synth/alt_xcvr_native_helper_functions_isub23q.tcl"]
+set_global_assignment -library "xcvrnphy_fme_411" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "xcvrnphy_fme_411/synth/alt_xcvr_native_rcp_load_rom_isub23q.sv"]
+set_global_assignment -library "xcvrnphy_fme_411" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "xcvrnphy_fme_411/synth/alt_xcvr_native_rcp_load_top_isub23q.sv"]
+set_global_assignment -library "xcvrnphy_fme_411" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "xcvrnphy_fme_411/synth/alt_xcvr_native_rcp_load_ctrl_isub23q.sv"]
+set_global_assignment -library "xcvrnphy_fme_411" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "xcvrnphy_fme_411/synth/alt_xcvr_native_rcfg_opt_logic_isub23q.sv"]
+set_instance_assignment -entity "eth_100g_cvl_nrz_xcvrnphy_fme_411_isub23q" -library "xcvrnphy_fme_411" -name TCL_ENTITY_FILE [file join $::quartus(qip_path) "xcvrnphy_fme_411/synth/eth_100g_cvl_nrz_xcvrnphy_fme_411_isub23q_ip_parameters_isub23q.tcl"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name VERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/eth_100g_cvl_nrz_alt_ehipc3_fm_xcvrnphy_fme_2420_4f4z7my.v"]
+set_global_assignment -library "altera_jtag_dc_streaming_191" -name VERILOG_FILE [file join $::quartus(qip_path) "altera_jtag_dc_streaming_191/synth/altera_avalon_st_jtag_interface.v"]
+set_global_assignment -library "altera_jtag_dc_streaming_191" -name VERILOG_FILE [file join $::quartus(qip_path) "altera_jtag_dc_streaming_191/synth/altera_jtag_dc_streaming.v"]
+set_global_assignment -library "altera_jtag_dc_streaming_191" -name VERILOG_FILE [file join $::quartus(qip_path) "altera_jtag_dc_streaming_191/synth/altera_jtag_sld_node.v"]
+set_global_assignment -library "altera_jtag_dc_streaming_191" -name VERILOG_FILE [file join $::quartus(qip_path) "altera_jtag_dc_streaming_191/synth/altera_jtag_streaming.v"]
+set_global_assignment -library "altera_jtag_dc_streaming_191" -name VERILOG_FILE [file join $::quartus(qip_path) "altera_jtag_dc_streaming_191/synth/altera_avalon_st_clock_crosser.v"]
+set_global_assignment -library "altera_jtag_dc_streaming_191" -name VERILOG_FILE [file join $::quartus(qip_path) "altera_jtag_dc_streaming_191/synth/altera_reset_synchronizer.v"]
+set_global_assignment -library "altera_jtag_dc_streaming_191" -name VERILOG_FILE [file join $::quartus(qip_path) "altera_jtag_dc_streaming_191/synth/altera_std_synchronizer_nocut.v"]
+set_global_assignment -library "altera_jtag_dc_streaming_191" -name VERILOG_FILE [file join $::quartus(qip_path) "altera_jtag_dc_streaming_191/synth/altera_avalon_st_pipeline_base.v"]
+set_global_assignment -library "altera_jtag_dc_streaming_191" -name VERILOG_FILE [file join $::quartus(qip_path) "altera_jtag_dc_streaming_191/synth/altera_avalon_st_idle_remover.v"]
+set_global_assignment -library "altera_jtag_dc_streaming_191" -name VERILOG_FILE [file join $::quartus(qip_path) "altera_jtag_dc_streaming_191/synth/altera_avalon_st_idle_inserter.v"]
+set_global_assignment -library "altera_jtag_dc_streaming_191" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "altera_jtag_dc_streaming_191/synth/altera_avalon_st_pipeline_stage.sv"]
+set_instance_assignment -entity "altera_avalon_st_jtag_interface" -library "altera_jtag_dc_streaming_191" -name SDC_ENTITY_FILE [file join $::quartus(qip_path) "altera_jtag_dc_streaming_191/synth/altera_avalon_st_jtag_interface.sdc"] -no_sdc_promotion  -no_auto_inst_discovery
+set_global_assignment -library "timing_adapter_1940" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "timing_adapter_1940/synth/eth_100g_cvl_nrz_timing_adapter_1940_5ju4ddy.sv"]
+set_global_assignment -library "altera_avalon_sc_fifo_1931" -name VERILOG_FILE [file join $::quartus(qip_path) "altera_avalon_sc_fifo_1931/synth/eth_100g_cvl_nrz_altera_avalon_sc_fifo_1931_fzgstwy.v"]
+set_global_assignment -library "altera_avalon_st_bytes_to_packets_1922" -name VERILOG_FILE [file join $::quartus(qip_path) "altera_avalon_st_bytes_to_packets_1922/synth/altera_avalon_st_bytes_to_packets.v"]
+set_global_assignment -library "altera_avalon_st_packets_to_bytes_1922" -name VERILOG_FILE [file join $::quartus(qip_path) "altera_avalon_st_packets_to_bytes_1922/synth/altera_avalon_st_packets_to_bytes.v"]
+set_global_assignment -library "altera_avalon_packets_to_master_1922" -name VERILOG_FILE [file join $::quartus(qip_path) "altera_avalon_packets_to_master_1922/synth/altera_avalon_packets_to_master.v"]
+set_global_assignment -library "channel_adapter_1921" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "channel_adapter_1921/synth/eth_100g_cvl_nrz_channel_adapter_1921_5wnzrci.sv"]
+set_global_assignment -library "channel_adapter_1921" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "channel_adapter_1921/synth/eth_100g_cvl_nrz_channel_adapter_1921_fkajlia.sv"]
+set_global_assignment -library "altera_reset_controller_1922" -name VERILOG_FILE [file join $::quartus(qip_path) "altera_reset_controller_1922/synth/altera_reset_controller.v"]
+set_global_assignment -library "altera_reset_controller_1922" -name VERILOG_FILE [file join $::quartus(qip_path) "altera_reset_controller_1922/synth/altera_reset_synchronizer.v"]
+set_instance_assignment -entity "altera_reset_controller" -library "altera_reset_controller_1922" -name SDC_ENTITY_FILE [file join $::quartus(qip_path) "altera_reset_controller_1922/synth/altera_reset_controller.sdc"] -no_sdc_promotion
+set_global_assignment -library "altera_jtag_avalon_master_191" -name VERILOG_FILE [file join $::quartus(qip_path) "altera_jtag_avalon_master_191/synth/eth_100g_cvl_nrz_altera_jtag_avalon_master_191_3zppvky.v"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name VERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_jtag_int.v"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/eth_100g_cvl_nrz_alt_ehipc3_fm_2420_salfkeq.sv"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_package.sv"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_dr_package.sv"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_dp_mux.sv"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_clock_mon.sv"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_ml_soft.sv"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_ehip_sync_fifo_rk.sv"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_kpfec_cadence_gen.sv"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_rcfg_arb.sv"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name VERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/checker_fifo.v"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name VERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/reset_timer.v"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/test_harness.sv"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/xgmii_sink.sv"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/xgmii_src.sv"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name VERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/pcs_scfifo_mlab.v"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name VERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_100g_4w_aligner.v"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_100g_adapter_data_aligner.sv"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_100g_adapter_data_aligner_async.sv"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_100g_adapter_rptr_addgen.sv"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_100g_adapter_rx.sv"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_100g_adapter_rx_async.sv"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_100g_adapter_tx.sv"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_100g_adapter_tx_async.sv"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_100g_adapter_wptr_addgen.sv"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_100g_avalon_to_if.sv"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_100g_block_buffer.sv"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name VERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_100g_fifo_coupler.v"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name VERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_100g_gb_4to8.v"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name VERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_100g_gearbox.v"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_100g_if_to_avst.sv"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_100g_rx_aligner.sv"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_accumulators.sv"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name VERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_altera_std_synchronizer_nocut.v"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_data_sync.sv"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name VERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_delay_reg.v"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_dropped_frame_count.sv"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_if_filter5.sv"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_mlab.sv"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_pointer_synchronizer.sv"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_preamble_filter2.sv"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name VERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_reset_synchronizer.v"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name VERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_scfifo_mlab.v"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_sl_adapter_rx.sv"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_sl_adapter_rx_async.sv"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_sl_adapter_tx.sv"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_sl_adapter_tx_async.sv"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_sl_avalon_to_if.sv"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_sl_if_to_avalon.sv"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name VERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_word_aligner.v"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name VERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_word_shifter.v"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name VERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/intc_mlab6_a1r1w1_fm.v"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name VERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/intc_mlab_fm.v"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name VERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/intc_sync6_m_fm.v"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_dcfifo_mlab.sv"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name VERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_block_gearbox.v"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_mac_enable_avmm.sv"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_sl_pause.sv"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_sm_recover.sv"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_rx_deskew.sv"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_tx_deskew.sv"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_word_delay_mlab.sv"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_alias_csr.sv"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_avmm_32to8.sv"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name VERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_csr.v"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_sl_avmm_32to8.sv"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name VERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_clock_crosser.v"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_ml_ptp.sv"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_ml_ptp_avmm_csr_bank.sv"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_ml_ptp_ckt_cal.sv"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_ml_ptp_convert_commands.sv"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_ml_ptp_opcode_writer.sv"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_ml_ptp_ref_ts_capture.sv"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_ml_ptp_rx_tam_capture.sv"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_ml_ptp_ts_converter.sv"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_ml_ptp_tx_tam_capture.sv"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_ptp_rx_ts_adj_detect.sv"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name VERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_sl_clock_crosser.v"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_sl_ptp.sv"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_sl_ptp_avmm_csr_bank.sv"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_sl_ptp_avmm_csr_bank_sn.sv"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_sl_ptp_avmm_csr_bank_sn_dbg.sv"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_sl_ptp_calc_tam.sv"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_sl_ptp_calc_tam_sn.sv"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_sl_ptp_ckt_cal.sv"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_sl_ptp_compute_ts.sv"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_sl_ptp_compute_ts_sn.sv"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_sl_ptp_convert_commands.sv"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_sl_ptp_opcode_writer.sv"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_sl_ptp_ref_ts_capture.sv"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_sl_ptp_ref_ts_capture_sn.sv"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_sl_ptp_rx_deskew.sv"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_sl_ptp_rx_tam_capture.sv"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_sl_ptp_rx_tam_capture_sn.sv"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_sl_ptp_sn.sv"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_sl_ptp_sn_dbg.sv"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_sl_ptp_sn_latency.sv"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_sl_ptp_sn_roll_over.sv"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_sl_ptp_sn_sclk.sv"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_sl_ptp_sn_tam.sv"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_sl_ptp_sn_wire_delay.sv"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_sl_ptp_sn_xd_1shot.sv"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_sl_ptp_sticky_register.sv"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_sl_ptp_sub_nano.sv"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_sl_ptp_tam_adj_detect.sv"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_sl_ptp_tam_capture_count.sv"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_sl_ptp_tam_capture_count_sn.sv"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_sl_ptp_ts_converter.sv"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_sl_ptp_ts_converter_sn.sv"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_sl_ptp_tx_tam_capture.sv"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_sl_ptp_tx_tam_capture_sn.sv"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_xcvr_resync_norand_std.sv"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name VERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_and3t0.v"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name VERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_and3t1.v"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name VERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_and4t0.v"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name VERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_and4t1.v"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name VERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_cnt6.v"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name VERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_eqc15h7cfbt2.v"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name VERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_eqc19h4e1fbt2.v"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name VERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_eqc4h9t1.v"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name VERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_eqc5h07t1.v"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name VERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_eqc5h0ft1.v"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name VERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_eqc5h18t1.v"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name VERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_eqc5h1bt1.v"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name VERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_eqc5h1ft1.v"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name VERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_fmon8.v"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name VERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_lut6.v"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name VERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_metronome32000.v"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name VERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_metronome320000.v"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name VERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_mux2w1t0s0.v"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name VERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_mux2w1t0s1.v"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name VERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_mux2w1t0s2.v"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name VERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_mux2w1t1s2.v"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name VERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_mux4w1t0s0.v"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name VERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_mux4w1t0s1.v"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name VERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_mux4w1t1s1.v"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name VERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_mux8w1t2s1.v"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name VERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_ripple16.v"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name VERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_sl_addc2h0t1.v"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name VERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_sl_and2t0.v"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name VERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_sl_and2t1.v"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name VERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_sl_and3t0.v"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name VERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_sl_and4t0.v"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name VERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_sl_and4t1.v"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name VERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_sl_and8t2.v"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name VERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_sl_cnt2c.v"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name VERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_sl_delay1w2.v"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name VERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_sl_delay2w2.v"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name VERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_sl_delay3w1.v"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name VERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_sl_delay3w64c.v"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name VERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_sl_delay4w1.v"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name VERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_sl_delay5w1.v"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name VERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_sl_delay6w1.v"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name VERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_sl_descram64.v"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name VERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_sl_eq2t0.v"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name VERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_sl_eq2t1.v"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name VERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_sl_eq3t0.v"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name VERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_sl_eq3t1.v"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name VERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_sl_eq4t1.v"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name VERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_sl_eq8t1.v"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name VERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_sl_eq9t1.v"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name VERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_sl_eqc4hft1.v"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name VERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_sl_eqc5h1bt1.v"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name VERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_sl_eqc5h1dt1.v"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name VERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_sl_eqc9h1fbt2.v"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name VERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_sl_eqc9h1fdt2.v"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name VERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_sl_etag.v"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name VERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_sl_ethdec.v"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name VERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_sl_ethenc.v"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name VERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_sl_lut6.v"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_sl_mlab.sv"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name VERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_sl_mlab64a2r1w1.v"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name VERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_sl_mx16r.v"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name VERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_sl_mx4r.v"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name VERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_sl_or2t0.v"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name VERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_sl_or2t1.v"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name VERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_sl_or4t0.v"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name VERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_sl_or4t1.v"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_sl_or_r.sv"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name VERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_sl_scram64.v"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name VERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_sl_subc2h0t1.v"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name VERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_sl_xor1t0.v"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name VERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_sl_xor1t1.v"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name VERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_sl_xor2t0.v"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name VERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_sl_xor2t1.v"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name VERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_sl_xor3t0.v"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name VERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_sl_xor3t1.v"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name VERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_sl_xor4t0.v"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name VERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_status_sync.v"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name VERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_sync1r1.v"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_ehip_rst.sv"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_reset_controller.sv"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_rx_ch_rst.sv"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_tx_ch_rst.sv"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name SOURCE_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_top.sv.terp"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_sl_soft.sv"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_jtag_avmm.sv"]
+set_global_assignment -library "alt_ehipc3_fm_2420" -name SYSTEMVERILOG_FILE [file join $::quartus(qip_path) "alt_ehipc3_fm_2420/synth/alt_ehipc3_fm_hard_salfkeq.sv"]
+set_global_assignment -library "eth_100g_cvl_nrz" -name VERILOG_FILE [file join $::quartus(qip_path) "synth/eth_100g_cvl_nrz.v"]
+
+
+set_global_assignment -entity "eth_100g_cvl_nrz_alt_ehipc3_fm_2420_salfkeq" -library "alt_ehipc3_fm_2420" -name IP_TOOL_NAME "alt_ehipc3_fm"
+set_global_assignment -entity "eth_100g_cvl_nrz_alt_ehipc3_fm_2420_salfkeq" -library "alt_ehipc3_fm_2420" -name IP_TOOL_VERSION "24.2.0"
+set_global_assignment -entity "eth_100g_cvl_nrz_alt_ehipc3_fm_2420_salfkeq" -library "alt_ehipc3_fm_2420" -name IP_TOOL_ENV "QsysPrimePro"
+set_global_assignment -entity "eth_100g_cvl_nrz_altera_jtag_avalon_master_191_3zppvky" -library "altera_jtag_avalon_master_191" -name IP_TOOL_NAME "altera_jtag_avalon_master"
+set_global_assignment -entity "eth_100g_cvl_nrz_altera_jtag_avalon_master_191_3zppvky" -library "altera_jtag_avalon_master_191" -name IP_TOOL_VERSION "19.1"
+set_global_assignment -entity "eth_100g_cvl_nrz_altera_jtag_avalon_master_191_3zppvky" -library "altera_jtag_avalon_master_191" -name IP_TOOL_ENV "QsysPrimePro"
+set_global_assignment -entity "altera_reset_controller" -library "altera_reset_controller_1922" -name IP_TOOL_NAME "altera_reset_controller"
+set_global_assignment -entity "altera_reset_controller" -library "altera_reset_controller_1922" -name IP_TOOL_VERSION "19.2.2"
+set_global_assignment -entity "altera_reset_controller" -library "altera_reset_controller_1922" -name IP_TOOL_ENV "QsysPrimePro"
+set_global_assignment -entity "eth_100g_cvl_nrz_channel_adapter_1921_fkajlia" -library "channel_adapter_1921" -name IP_TOOL_NAME "channel_adapter"
+set_global_assignment -entity "eth_100g_cvl_nrz_channel_adapter_1921_fkajlia" -library "channel_adapter_1921" -name IP_TOOL_VERSION "19.2.1"
+set_global_assignment -entity "eth_100g_cvl_nrz_channel_adapter_1921_fkajlia" -library "channel_adapter_1921" -name IP_TOOL_ENV "QsysPrimePro"
+set_global_assignment -entity "eth_100g_cvl_nrz_channel_adapter_1921_5wnzrci" -library "channel_adapter_1921" -name IP_TOOL_NAME "channel_adapter"
+set_global_assignment -entity "eth_100g_cvl_nrz_channel_adapter_1921_5wnzrci" -library "channel_adapter_1921" -name IP_TOOL_VERSION "19.2.1"
+set_global_assignment -entity "eth_100g_cvl_nrz_channel_adapter_1921_5wnzrci" -library "channel_adapter_1921" -name IP_TOOL_ENV "QsysPrimePro"
+set_global_assignment -entity "altera_avalon_packets_to_master" -library "altera_avalon_packets_to_master_1922" -name IP_TOOL_NAME "altera_avalon_packets_to_master"
+set_global_assignment -entity "altera_avalon_packets_to_master" -library "altera_avalon_packets_to_master_1922" -name IP_TOOL_VERSION "19.2.2"
+set_global_assignment -entity "altera_avalon_packets_to_master" -library "altera_avalon_packets_to_master_1922" -name IP_TOOL_ENV "QsysPrimePro"
+set_global_assignment -entity "altera_avalon_st_packets_to_bytes" -library "altera_avalon_st_packets_to_bytes_1922" -name IP_TOOL_NAME "altera_avalon_st_packets_to_bytes"
+set_global_assignment -entity "altera_avalon_st_packets_to_bytes" -library "altera_avalon_st_packets_to_bytes_1922" -name IP_TOOL_VERSION "19.2.2"
+set_global_assignment -entity "altera_avalon_st_packets_to_bytes" -library "altera_avalon_st_packets_to_bytes_1922" -name IP_TOOL_ENV "QsysPrimePro"
+set_global_assignment -entity "altera_avalon_st_bytes_to_packets" -library "altera_avalon_st_bytes_to_packets_1922" -name IP_TOOL_NAME "altera_avalon_st_bytes_to_packets"
+set_global_assignment -entity "altera_avalon_st_bytes_to_packets" -library "altera_avalon_st_bytes_to_packets_1922" -name IP_TOOL_VERSION "19.2.2"
+set_global_assignment -entity "altera_avalon_st_bytes_to_packets" -library "altera_avalon_st_bytes_to_packets_1922" -name IP_TOOL_ENV "QsysPrimePro"
+set_global_assignment -entity "eth_100g_cvl_nrz_altera_avalon_sc_fifo_1931_fzgstwy" -library "altera_avalon_sc_fifo_1931" -name IP_TOOL_NAME "altera_avalon_sc_fifo"
+set_global_assignment -entity "eth_100g_cvl_nrz_altera_avalon_sc_fifo_1931_fzgstwy" -library "altera_avalon_sc_fifo_1931" -name IP_TOOL_VERSION "19.3.1"
+set_global_assignment -entity "eth_100g_cvl_nrz_altera_avalon_sc_fifo_1931_fzgstwy" -library "altera_avalon_sc_fifo_1931" -name IP_TOOL_ENV "QsysPrimePro"
+set_global_assignment -entity "eth_100g_cvl_nrz_timing_adapter_1940_5ju4ddy" -library "timing_adapter_1940" -name IP_TOOL_NAME "timing_adapter"
+set_global_assignment -entity "eth_100g_cvl_nrz_timing_adapter_1940_5ju4ddy" -library "timing_adapter_1940" -name IP_TOOL_VERSION "19.4.0"
+set_global_assignment -entity "eth_100g_cvl_nrz_timing_adapter_1940_5ju4ddy" -library "timing_adapter_1940" -name IP_TOOL_ENV "QsysPrimePro"
+set_global_assignment -entity "altera_avalon_st_jtag_interface" -library "altera_jtag_dc_streaming_191" -name IP_TOOL_NAME "altera_jtag_dc_streaming"
+set_global_assignment -entity "altera_avalon_st_jtag_interface" -library "altera_jtag_dc_streaming_191" -name IP_TOOL_VERSION "19.1"
+set_global_assignment -entity "altera_avalon_st_jtag_interface" -library "altera_jtag_dc_streaming_191" -name IP_TOOL_ENV "QsysPrimePro"
+set_global_assignment -entity "eth_100g_cvl_nrz_xcvrnphy_fme_411_isub23q" -library "xcvrnphy_fme_411" -name IP_TOOL_NAME "xcvrnphy_fme"
+set_global_assignment -entity "eth_100g_cvl_nrz_xcvrnphy_fme_411_isub23q" -library "xcvrnphy_fme_411" -name IP_TOOL_VERSION "4.1.1"
+set_global_assignment -entity "eth_100g_cvl_nrz_xcvrnphy_fme_411_isub23q" -library "xcvrnphy_fme_411" -name IP_TOOL_ENV "QsysPrimePro"

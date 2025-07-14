@@ -1,0 +1,122 @@
+	component eth_100g_cvl_nrz is
+		generic (
+			am_encoding40g_0              : integer := 9467463;
+			am_encoding40g_1              : integer := 15779046;
+			am_encoding40g_2              : integer := 12936603;
+			am_encoding40g_3              : integer := 10647869;
+			enforce_max_frame_size        : string  := "disable";
+			flow_control                  : string  := "both_no_xoff";
+			flow_control_holdoff_mode     : string  := "uniform";
+			forward_rx_pause_requests     : string  := "disable";
+			hi_ber_monitor                : string  := "enable";
+			holdoff_quanta                : integer := 65535;
+			ipg_removed_per_am_period     : integer := 20;
+			link_fault_mode               : string  := "lf_bidir";
+			pause_quanta                  : integer := 65535;
+			pfc_holdoff_quanta_0          : integer := 65535;
+			pfc_holdoff_quanta_1          : integer := 65535;
+			pfc_holdoff_quanta_2          : integer := 65535;
+			pfc_holdoff_quanta_3          : integer := 65535;
+			pfc_holdoff_quanta_4          : integer := 65535;
+			pfc_holdoff_quanta_5          : integer := 65535;
+			pfc_holdoff_quanta_6          : integer := 65535;
+			pfc_holdoff_quanta_7          : integer := 65535;
+			pfc_pause_quanta_0            : integer := 65535;
+			pfc_pause_quanta_1            : integer := 65535;
+			pfc_pause_quanta_2            : integer := 65535;
+			pfc_pause_quanta_3            : integer := 65535;
+			pfc_pause_quanta_4            : integer := 65535;
+			pfc_pause_quanta_5            : integer := 65535;
+			pfc_pause_quanta_6            : integer := 65535;
+			pfc_pause_quanta_7            : integer := 65535;
+			remove_pads                   : string  := "disable";
+			rx_length_checking            : string  := "disable";
+			rx_max_frame_size             : integer := 1518;
+			rx_pause_daddr                : string  := "17483607389996";
+			rx_pcs_max_skew               : integer := 47;
+			rx_vlan_detection             : string  := "disable";
+			rxcrc_covers_preamble         : string  := "disable";
+			sim_mode                      : string  := "enable";
+			source_address_insertion      : string  := "disable";
+			strict_preamble_checking      : string  := "disable";
+			strict_sfd_checking           : string  := "disable";
+			tx_ipg_size                   : string  := "ipg_12";
+			tx_max_frame_size             : integer := 1518;
+			tx_pause_daddr                : string  := "1652522221569";
+			tx_pause_saddr                : string  := "247393538562781";
+			tx_pld_fifo_almost_full_level : integer := 16;
+			tx_vlan_detection             : string  := "disable";
+			txcrc_covers_preamble         : string  := "disable";
+			txmac_saddr                   : string  := "73588229205";
+			uniform_holdoff_quanta        : integer := 51090;
+			flow_control_sl_0             : string  := "both_no_xoff"
+		);
+		port (
+			i_stats_snapshot              : in  std_logic                      := 'X';             -- i_stats_snapshot
+			o_cdr_lock                    : out std_logic_vector(0 downto 0);                      -- o_cdr_lock
+			o_tx_pll_locked               : out std_logic_vector(0 downto 0);                      -- o_tx_pll_locked
+			i_eth_reconfig_addr           : in  std_logic_vector(20 downto 0)  := (others => 'X'); -- address
+			i_eth_reconfig_read           : in  std_logic                      := 'X';             -- read
+			i_eth_reconfig_write          : in  std_logic                      := 'X';             -- write
+			o_eth_reconfig_readdata       : out std_logic_vector(31 downto 0);                     -- readdata
+			o_eth_reconfig_readdata_valid : out std_logic;                                         -- readdatavalid
+			i_eth_reconfig_writedata      : in  std_logic_vector(31 downto 0)  := (others => 'X'); -- writedata
+			o_eth_reconfig_waitrequest    : out std_logic;                                         -- waitrequest
+			i_rsfec_reconfig_addr         : in  std_logic_vector(10 downto 0)  := (others => 'X'); -- address
+			i_rsfec_reconfig_read         : in  std_logic                      := 'X';             -- read
+			i_rsfec_reconfig_write        : in  std_logic                      := 'X';             -- write
+			o_rsfec_reconfig_readdata     : out std_logic_vector(7 downto 0);                      -- readdata
+			i_rsfec_reconfig_writedata    : in  std_logic_vector(7 downto 0)   := (others => 'X'); -- writedata
+			o_rsfec_reconfig_waitrequest  : out std_logic;                                         -- waitrequest
+			o_tx_lanes_stable             : out std_logic;                                         -- o_tx_lanes_stable
+			o_rx_pcs_ready                : out std_logic;                                         -- o_rx_pcs_ready
+			o_ehip_ready                  : out std_logic;                                         -- o_ehip_ready
+			o_rx_block_lock               : out std_logic;                                         -- o_rx_block_lock
+			o_rx_am_lock                  : out std_logic;                                         -- o_rx_am_lock
+			o_rx_hi_ber                   : out std_logic;                                         -- o_rx_hi_ber
+			o_local_fault_status          : out std_logic;                                         -- o_local_fault_status
+			o_remote_fault_status         : out std_logic;                                         -- o_remote_fault_status
+			i_clk_tx                      : in  std_logic                      := 'X';             -- clk
+			i_clk_rx                      : in  std_logic                      := 'X';             -- clk
+			i_csr_rst_n                   : in  std_logic                      := 'X';             -- reset_n
+			i_tx_rst_n                    : in  std_logic                      := 'X';             -- reset_n
+			i_rx_rst_n                    : in  std_logic                      := 'X';             -- reset_n
+			o_tx_serial                   : out std_logic_vector(3 downto 0);                      -- o_tx_serial
+			i_rx_serial                   : in  std_logic_vector(3 downto 0)   := (others => 'X'); -- i_rx_serial
+			o_tx_serial_n                 : out std_logic_vector(3 downto 0);                      -- o_tx_serial_n
+			i_rx_serial_n                 : in  std_logic_vector(3 downto 0)   := (others => 'X'); -- i_rx_serial_n
+			i_reconfig_clk                : in  std_logic                      := 'X';             -- clk
+			i_reconfig_reset              : in  std_logic                      := 'X';             -- reset
+			o_tx_ready                    : out std_logic;                                         -- ready
+			i_tx_valid                    : in  std_logic                      := 'X';             -- valid
+			i_tx_data                     : in  std_logic_vector(511 downto 0) := (others => 'X'); -- data
+			i_tx_error                    : in  std_logic                      := 'X';             -- error
+			i_tx_startofpacket            : in  std_logic                      := 'X';             -- startofpacket
+			i_tx_endofpacket              : in  std_logic                      := 'X';             -- endofpacket
+			i_tx_empty                    : in  std_logic_vector(5 downto 0)   := (others => 'X'); -- empty
+			o_rx_valid                    : out std_logic;                                         -- valid
+			o_rx_data                     : out std_logic_vector(511 downto 0);                    -- data
+			o_rx_startofpacket            : out std_logic;                                         -- startofpacket
+			o_rx_endofpacket              : out std_logic;                                         -- endofpacket
+			o_rx_empty                    : out std_logic_vector(5 downto 0);                      -- empty
+			o_rx_error                    : out std_logic_vector(5 downto 0);                      -- error
+			i_xcvr_reconfig_address       : in  std_logic_vector(75 downto 0)  := (others => 'X'); -- i_xcvr_reconfig_address
+			i_xcvr_reconfig_read          : in  std_logic_vector(3 downto 0)   := (others => 'X'); -- i_xcvr_reconfig_read
+			i_xcvr_reconfig_write         : in  std_logic_vector(3 downto 0)   := (others => 'X'); -- i_xcvr_reconfig_write
+			o_xcvr_reconfig_readdata      : out std_logic_vector(31 downto 0);                     -- o_xcvr_reconfig_readdata
+			i_xcvr_reconfig_writedata     : in  std_logic_vector(31 downto 0)  := (others => 'X'); -- i_xcvr_reconfig_writedata
+			o_xcvr_reconfig_waitrequest   : out std_logic_vector(3 downto 0);                      -- o_xcvr_reconfig_waitrequest
+			i_clk_ref                     : in  std_logic_vector(0 downto 0)   := (others => 'X'); -- i_clk_ref
+			o_clk_pll_div64               : out std_logic_vector(0 downto 0);                      -- o_clk_pll_div64
+			o_clk_pll_div66               : out std_logic_vector(0 downto 0);                      -- o_clk_pll_div66
+			o_clk_rec_div64               : out std_logic_vector(0 downto 0);                      -- o_clk_rec_div64
+			o_clk_rec_div66               : out std_logic_vector(0 downto 0);                      -- o_clk_rec_div66
+			i_tx_skip_crc                 : in  std_logic                      := 'X';             -- i_tx_skip_crc
+			o_rxstatus_data               : out std_logic_vector(39 downto 0);                     -- o_rxstatus_data
+			o_rxstatus_valid              : out std_logic;                                         -- o_rxstatus_valid
+			i_tx_pfc                      : in  std_logic_vector(7 downto 0)   := (others => 'X'); -- i_tx_pfc
+			o_rx_pfc                      : out std_logic_vector(7 downto 0);                      -- o_rx_pfc
+			i_tx_pause                    : in  std_logic                      := 'X';             -- i_tx_pause
+			o_rx_pause                    : out std_logic                                          -- o_rx_pause
+		);
+	end component eth_100g_cvl_nrz;

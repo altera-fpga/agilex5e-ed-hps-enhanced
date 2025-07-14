@@ -1,0 +1,36 @@
+From f295bc1c3ec7d195d9e3bdc0fbcefe688ba9297d Mon Sep 17 00:00:00 2001
+From: "Rane, Nikhil" <nikhil.rane@intel.com>
+Date: Fri, 15 Nov 2024 16:13:24 +0530
+Subject: [PATCH] Add support for FF Exercisers in Agilex5 device tree
+
+Upstream-Status: Pending
+
+Signed-off-by: Rane, Nikhil <nikhil.rane@intel.com>
+---
+ arch/arm64/boot/dts/intel/socfpga_agilex5.dtsi | 10 ++++++++++
+ 1 file changed, 10 insertions(+)
+
+diff --git a/arch/arm64/boot/dts/intel/socfpga_agilex5.dtsi b/arch/arm64/boot/dts/intel/socfpga_agilex5.dtsi
+index 27d2286e6931..de96522b50c1 100644
+--- a/arch/arm64/boot/dts/intel/socfpga_agilex5.dtsi
++++ b/arch/arm64/boot/dts/intel/socfpga_agilex5.dtsi
+@@ -271,6 +271,16 @@ clkmgr: clock-controller@10d10000 {
+ 			#clock-cells = <1>;
+ 		};
+ 
++		ff_memtg@23000000 {
++			compatible = "generic-uio";
++			reg = <0x23000000 0x10000>;
++		};
++
++		ff_hssi@24000000 {
++			compatible = "generic-uio";
++			reg = <0x24000000 0x10000>;
++		};
++
+ 		gmac2: ethernet@10830000 {
+ 			compatible = "altr,socfpga-stmmac-a10-s10",
+ 				     "snps,dwxgmac-2.10",
+-- 
+2.25.1
+

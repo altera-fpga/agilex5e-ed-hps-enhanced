@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preferences>
+ <debug showDebugMenu="0" />
+ <window width="1900" height="962" x="0" y="0" />
+ <systemtable filter="All Interfaces" />
+ <library
+   expandedCategories="Library/Basic Functions/Simulation; Debug and Verification,Library/DSP,Library/Basic Functions/Bridges and Adaptors/Memory Mapped,Library/Basic Functions,Library/Basic Functions/Bridges and Adaptors,Library/DSP/Video and Vision Processing/Clocked Video and Genlock,Project,Library/DSP/Video and Vision Processing,Library,Existing IP Variants,Library/Basic Functions/Simulation; Debug and Verification/Simulation" />
+ <generation path="" />
+</preferences>

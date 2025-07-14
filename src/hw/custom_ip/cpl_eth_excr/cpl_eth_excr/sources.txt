@@ -1,0 +1,165 @@
+
+set_global_assignment -name VHDL_INPUT_VERSION VHDL_2008
+set_global_assignment -name VERILOG_MACRO ETH_100G
+set_global_assignment -name SYSTEMVERILOG_FILE cpl_excr/cpl_eth_excr/bridges/avst_axis_bridge.sv
+set_global_assignment -name IP_FILE cpl_excr/cpl_eth_excr/ipss/hssi/e_tile/eth_100g_nrz.ip
+set_global_assignment -name SYSTEMVERILOG_FILE cpl_excr/cpl_eth_excr/cpl_eth_excr.sv
+set_global_assignment -name SYSTEMVERILOG_FILE cpl_excr/cpl_eth_excr/hw/rtl/he_hssi/common/mm_ctrl_xcvr.sv
+
+
+set_global_assignment -name SOURCE_FILE cpl_excr/cpl_eth_excr/ipss/hssi/rtl/inc/ofs_fim_eth_plat_defines.svh
+set_global_assignment -name SYSTEMVERILOG_FILE cpl_excr/cpl_eth_excr/src/includes/ofs_fim_cfg_pkg.sv
+set_global_assignment -name SYSTEMVERILOG_FILE cpl_excr/cpl_eth_excr/hw/rtl/he_hssi/common/csr_reg.sv
+
+set_global_assignment -name VERILOG_FILE cpl_excr/cpl_eth_excr/ipss/hssi/rtl/lib/alt_aeuex_user_mode_det.v
+set_global_assignment -name SYSTEMVERILOG_FILE cpl_excr/cpl_eth_excr/ipss/hssi/rtl/lib/alt_ehipc3_fm_reset_synchronizer.v
+set_global_assignment -name SYSTEMVERILOG_FILE cpl_excr/cpl_eth_excr/ipss/hssi/rtl/lib/alt_ehipc3_fm_status_sync.v
+set_global_assignment -name SYSTEMVERILOG_FILE cpl_excr/cpl_eth_excr/ipss/hssi/rtl/lib/alt_ehipc3_fm_mlab.sv
+set_global_assignment -name SYSTEMVERILOG_FILE cpl_excr/cpl_eth_excr/ipss/hssi/rtl/lib/alt_ehipc3_fm_altera_std_synchronizer_nocut.v
+set_global_assignment -name SYSTEMVERILOG_FILE "cpl_excr/cpl_eth_excr/ofs-common/src/common/includes/ofs_fim_axi_mmio_if.sv"
+set_global_assignment -name SYSTEMVERILOG_FILE cpl_excr/cpl_eth_excr/he_hssi_top.sv
+
+set_global_assignment -name SYSTEMVERILOG_FILE cpl_excr/cpl_eth_excr/hw/rtl/he_hssi/pkt_client_100g/alt_e100s10_pointer_synchronizer.sv
+set_global_assignment -name SYSTEMVERILOG_FILE cpl_excr/cpl_eth_excr/hw/rtl/he_hssi/pkt_client_100g/alt_e100s10_data_block_buffer.sv
+set_global_assignment -name VERILOG_FILE cpl_excr/cpl_eth_excr/hw/rtl/he_hssi/pkt_client_100g/alt_aeuex_pkt_gen_sync.v
+set_global_assignment -name SYSTEMVERILOG_FILE cpl_excr/cpl_eth_excr/hw/rtl/he_hssi/pkt_client_100g/alt_e100s10_frame_buffer.sv
+set_global_assignment -name SYSTEMVERILOG_FILE cpl_excr/cpl_eth_excr/hw/rtl/he_hssi/pkt_client_100g/alt_e100s10_data_synchronizer.sv
+set_global_assignment -name VERILOG_FILE cpl_excr/cpl_eth_excr/hw/rtl/he_hssi/pkt_client_100g/alt_aeuex_packet_client_tx.v
+set_global_assignment -name SYSTEMVERILOG_FILE cpl_excr/cpl_eth_excr/hw/rtl/he_hssi/pkt_client_100g/alt_e100s10_loopback_client.sv
+set_global_assignment -name SYSTEMVERILOG_FILE cpl_excr/cpl_eth_excr/hw/rtl/he_hssi/pkt_client_100g/alt_e100s10_ready_skid.sv
+set_global_assignment -name SYSTEMVERILOG_FILE cpl_excr/cpl_eth_excr/hw/rtl/he_hssi/pkt_client_100g/alt_e100s10_packet_client.sv
+
+set_global_assignment -name QSYS_FILE cpl_excr/cpl_eth_excr/bridges/axi_avmm_bridge/axi_avmm_bridge.qsys
+
+set_global_assignment -name SYSTEMVERILOG_FILE cpl_excr/cpl_eth_excr/ipss/hssi/rtl/inc/ofs_fim_eth_plat_if_pkg.sv
+
+set_global_assignment -name VHDL_FILE cpl_excr/cpl_eth_excr/ofs-common/src/common/includes/reset_comb_sync.vhd
+
+
+set_global_assignment -name VHDL_FILE cpl_excr/cpl_eth_excr/ipss/hssi/e_tile/eth100_avst_pkg.vhd
+set_global_assignment -name VHDL_FILE cpl_excr/cpl_eth_excr/ipss/hssi/e_tile/port_eth100.vhd
+
+set_global_assignment -name SYSTEMVERILOG_FILE cpl_excr/cpl_eth_excr/ipss/hssi/rtl/lib/ofs_fim_eth_afu_avst_to_fim_axis_bridge.sv
+set_global_assignment -name SYSTEMVERILOG_FILE cpl_excr/cpl_eth_excr/ipss/hssi/rtl/lib/ofs_fim_eth_afu_axi_2_avst_bridge.sv
+
+set_global_assignment -name SYSTEMVERILOG_FILE cpl_excr/cpl_eth_excr/ipss/hssi/rtl/inc/ofs_fim_eth_if_pkg.sv
+set_global_assignment -name IP_FILE "cpl_excr/cpl_eth_excr/ofs-common/src/common/lib/fifo/sc_fifo_tx_sc_fifo.ip"
+
+set_global_assignment -name QIP_FILE cpl_excr/cpl_eth_excr/hw/rtl/he_hssi/eth_traffic_controller/eth_std_traffic_controller_top.qip
+set_global_assignment -name SYSTEMVERILOG_FILE cpl_excr/cpl_eth_excr/hw/rtl/he_hssi/common/eth_traffic_csr_pkg.sv
+set_global_assignment -name SYSTEMVERILOG_FILE cpl_excr/cpl_eth_excr/hw/rtl/he_hssi/common/eth_traffic_csr.sv
+
+set_global_assignment -name SYSTEMVERILOG_FILE "cpl_excr/cpl_eth_excr/ofs-common/src/common/lib/sync/fim_cross_strobe.sv"
+set_global_assignment -name SYSTEMVERILOG_FILE "cpl_excr/cpl_eth_excr/ofs-common/src/common/lib/sync/fim_resync.sv"
+
+set_global_assignment -name SYSTEMVERILOG_FILE "cpl_excr/cpl_eth_excr/ofs-common/src/common/includes/ofs_avmm_if.sv"
+set_global_assignment -name SYSTEMVERILOG_FILE cpl_excr/cpl_eth_excr/ipss/hssi/rtl/inc/ofs_fim_eth_avst_if.sv
+set_global_assignment -name SYSTEMVERILOG_FILE cpl_excr/cpl_eth_excr/ipss/hssi/rtl/inc/ofs_fim_eth_avst_if_pkg.sv
+
+set_global_assignment -name SYSTEMVERILOG_FILE "cpl_excr/cpl_eth_excr/ofs-common/src/common/includes/ofs_csr_pkg.sv"
+set_global_assignment -name SYSTEMVERILOG_FILE cpl_excr/cpl_eth_excr/hw/rtl/he_hssi/common/traffic_controller_wrapper.sv
+set_global_assignment -name SYSTEMVERILOG_FILE cpl_excr/cpl_eth_excr/hw/rtl/he_hssi/common/multi_port_traffic_ctrl.sv
+set_global_assignment -name SYSTEMVERILOG_FILE cpl_excr/cpl_eth_excr/hw/rtl/he_hssi/common/multi_port_axi_traffic_ctrl.sv
+set_global_assignment -name SYSTEMVERILOG_FILE cpl_excr/cpl_eth_excr/hw/rtl/he_hssi/common/eth_traffic_pcie_axil_csr.sv
+set_global_assignment -name SYSTEMVERILOG_FILE "cpl_excr/cpl_eth_excr/ofs-common/src/common/includes/ofs_fim_axi_lite_if.sv"
+set_global_assignment -name SYSTEMVERILOG_FILE cpl_excr/cpl_eth_excr/ipss/hssi/rtl/inc/ofs_fim_eth_if.sv
+
+
+set_global_assignment -name VERILOG_INCLUDE_FILE "cpl_excr/cpl_eth_excr/ofs-common/src/common/includes/ofs_ip_cfg_db.vh"
+set_global_assignment -name VERILOG_INCLUDE_FILE "cpl_excr/cpl_eth_excr/ofs-common/src/common/includes/vendor_defines.vh"
+set_global_assignment -name VERILOG_INCLUDE_FILE "cpl_excr/cpl_eth_excr/ofs-common/src/common/includes/fpga_defines.vh"
+set_global_assignment -name VERILOG_INCLUDE_FILE "cpl_excr/cpl_eth_excr/ofs-common/src/common/includes/ofs_ip_cfg_db.vh"
+set_global_assignment -name VERILOG_INCLUDE_FILE "cpl_excr/cpl_eth_excr/ofs-common/src/common/includes/ofs_fim_eth_plat_defines.svh"
+set_global_assignment -name VERILOG_INCLUDE_FILE "cpl_excr/cpl_eth_excr/ofs-common/src/common/includes/ofs_ip_cfg_sys_clk.vh"
+set_global_assignment -name VERILOG_INCLUDE_FILE "cpl_excr/cpl_eth_excr/ofs-common/src/common/includes/ofs_ip_cfg_soc_pcie_ss.vh"
+set_global_assignment -name VERILOG_INCLUDE_FILE "cpl_excr/cpl_eth_excr/ofs-common/src/common/includes/ofs_ip_cfg_mem_ss.vh"
+set_global_assignment -name VERILOG_INCLUDE_FILE "cpl_excr/cpl_eth_excr/ofs-common/src/common/includes/ofs_ip_cfg_hssi_ss.vh"
+set_global_assignment -name VERILOG_MACRO INCLUDE_HSSI
+set_global_assignment -name VERILOG_MACRO OSC_CFGA
+
+# pin assignments for fm_61_si_dk
+
+set_location_assignment PIN_BF7 -to qsfpa_rx[0]
+set_location_assignment PIN_BG10 -to qsfpa_rx[1]
+set_location_assignment PIN_BK7 -to qsfpa_rx[2]
+set_location_assignment PIN_BL10 -to qsfpa_rx[3]
+set_location_assignment PIN_BP7 -to qsfpb_rx[0]
+set_location_assignment PIN_BR10 -to qsfpb_rx[1]
+set_location_assignment PIN_BV7 -to qsfpb_rx[2]
+set_location_assignment PIN_BW10 -to qsfpb_rx[3]
+set_location_assignment PIN_BE8 -to "qsfpa_rx[0](n)"
+set_location_assignment PIN_BH11 -to "qsfpa_rx[1](n)"
+set_location_assignment PIN_BJ8 -to "qsfpa_rx[2](n)"
+set_location_assignment PIN_BM11 -to "qsfpa_rx[3](n)"
+set_location_assignment PIN_BN8 -to "qsfpb_rx[0](n)"
+set_location_assignment PIN_BT11 -to "qsfpb_rx[1](n)"
+set_location_assignment PIN_BU8 -to "qsfpb_rx[2](n)"
+set_location_assignment PIN_BY11 -to "qsfpb_rx[3](n)"
+
+set_location_assignment PIN_BF1 -to qsfpa_tx[0]
+set_location_assignment PIN_BG4 -to qsfpa_tx[1]
+set_location_assignment PIN_BK1 -to qsfpa_tx[2]
+set_location_assignment PIN_BL4 -to qsfpa_tx[3]
+set_location_assignment PIN_BP1 -to qsfpb_tx[0]
+set_location_assignment PIN_BR4 -to qsfpb_tx[1]
+set_location_assignment PIN_BV1 -to qsfpb_tx[2]
+set_location_assignment PIN_BW4 -to qsfpb_tx[3]
+set_location_assignment PIN_BE2 -to "qsfpa_tx[0](n)"
+set_location_assignment PIN_BH5 -to "qsfpa_tx[1](n)"
+set_location_assignment PIN_BJ2 -to "qsfpa_tx[2](n)"
+set_location_assignment PIN_BM5 -to "qsfpa_tx[3](n)"
+set_location_assignment PIN_BN2 -to "qsfpb_tx[0](n)"
+set_location_assignment PIN_BT5 -to "qsfpb_tx[1](n)"
+set_location_assignment PIN_BU2 -to "qsfpb_tx[2](n)"
+set_location_assignment PIN_BY5 -to "qsfpb_tx[3](n)"
+
+
+set_location_assignment PIN_AV7 -to e810_tx[0]
+set_location_assignment PIN_AW10 -to e810_tx[1]
+set_location_assignment PIN_BB7 -to e810_tx[2]
+set_location_assignment PIN_BC10 -to e810_tx[3]
+set_location_assignment PIN_AU8 -to "e810_tx[0](n)"
+set_location_assignment PIN_AY11 -to "e810_tx[1](n)"
+set_location_assignment PIN_BA8 -to "e810_tx[2](n)"
+set_location_assignment PIN_BD11 -to "e810_tx[3](n)"
+
+
+set_location_assignment PIN_AV1 -to r_e810_rx[0]
+set_location_assignment PIN_AW4 -to r_e810_rx[1]
+set_location_assignment PIN_BB1 -to r_e810_rx[2]
+set_location_assignment PIN_BC4 -to r_e810_rx[3]
+set_location_assignment PIN_AU2 -to "r_e810_rx[0](n)"
+set_location_assignment PIN_AY5 -to "r_e810_rx[1](n)"
+set_location_assignment PIN_BA2 -to "r_e810_rx[2](n)"
+set_location_assignment PIN_BD5 -to "r_e810_rx[3](n)"
+
+
+set_instance_assignment -name IO_STANDARD "HSSI DIFFERENTIAL I/O" -to e810_tx -entity ghrd_agilex_top
+set_instance_assignment -name IO_STANDARD "HSSI DIFFERENTIAL I/O" -to r_e810_rx -entity ghrd_agilex_top
+
+
+set_global_assignment -name AUTO_RESERVE_CLKUSR_FOR_CALIBRATION OFF
+set_parameter -name G_E_TILE_REFCLK 3
+#set_location_assignment PIN_AK13 -to cr3_cpri_reflclk_clk
+#set_location_assignment PIN_AH13 -to "cr3_cpri_reflclk_clk(n)"
+set_location_assignment PIN_AT13 -to cr3_cpri_reflclk_clk
+set_location_assignment PIN_AP13 -to "cr3_cpri_reflclk_clk(n)"
+#set_location_assignment PIN_AJ14 -to cr3_cpri_reflclk_clk_184_32m
+#set_location_assignment PIN_AL14 -to "cr3_cpri_reflclk_clk_184_32m(n)"
+#set_location_assignment PIN_AT13 -to cr3_eth_refclk_qsfp_cvl_clk
+#set_location_assignment PIN_AP13 -to "cr3_eth_refclk_qsfp_cvl_clk(n)"
+
+set_instance_assignment -name IO_STANDARD "DIFFERENTIAL LVPECL" -to cr3_cpri_reflclk_clk -entity ghrd_agilex_top
+set_instance_assignment -name HSSI_PARAMETER "refclk_divider_enable_termination=enable_term" -to cr3_cpri_reflclk_clk -entity ghrd_agilex_top
+#set_instance_assignment -name HSSI_PARAMETER "refclk_divider_enable_3p3v=enable_3p3v_tol" -to cr3_cpri_reflclk_clk -entity ghrd_agilex_top
+#set_instance_assignment -name HSSI_PARAMETER "refclk_divider_disable_hysteresis=enable_hyst" -to cr3_cpri_reflclk_clk -entity ghrd_agilex_top
+set_instance_assignment -name HSSI_PARAMETER "refclk_divider_input_freq=156250000" -to cr3_cpri_reflclk_clk -entity ghrd_agilex_top
+#set_instance_assignment -name HSSI_PARAMETER "refclk_divider_powerdown_mode=false" -to cr3_cpri_reflclk_clk -entity ghrd_agilex_top
+set_instance_assignment -name HSSI_PARAMETER "refclk_divider_use_as_bti_clock=TRUE" -to cr3_cpri_reflclk_clk -entity ghrd_agilex_top
+
+
+
+set_instance_assignment -name IO_STANDARD "HSSI DIFFERENTIAL I/O" -to qsfpa_tx -entity ghrd_agilex_top
+set_instance_assignment -name IO_STANDARD "HSSI DIFFERENTIAL I/O" -to qsfpa_rx -entity ghrd_agilex_top
+set_instance_assignment -name IO_STANDARD "HSSI DIFFERENTIAL I/O" -to qsfpb_tx -entity ghrd_agilex_top
+set_instance_assignment -name IO_STANDARD "HSSI DIFFERENTIAL I/O" -to qsfpb_rx -entity ghrd_agilex_top

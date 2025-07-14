@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ip name="Avalon Streaming Single Clock FIFO Intel FPGA IP">
+ <timestamp>2024-06-23T23:42:11.962711208</timestamp>
+ <file></file>
+ <old_version>19.3.1</old_version>
+ <new_version>19.3.2</new_version>
+ <old_family>Agilex 7</old_family>
+ <new_family>Agilex 5</new_family>
+</ip>
