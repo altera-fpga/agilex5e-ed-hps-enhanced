@@ -37,7 +37,7 @@ This reference design demonstrates the following system integration between Hard
 - **Design Package**: a5ed065es-premium-devkit-oobe-legacy-baseline.zip
 
 ## GHRD Overview
-![GHRD_overview](/images/agilex5_ghrd_overview.svg)
+![GHRD_overview](https://github.com/altera-fpga/agilex5e-ed-gsrd/blob/main/images/agilex5_ghrd_overview.svg)
 
 ## Hard Processor System (HPS)
 The GHRD HPS configuration matches the board schematic.
