@@ -15,8 +15,6 @@ This example design demonstrates the following system integration between Hard P
   - Ethernet IP
   - Fabric EMIF
 
-Build scripts are organized according to the Intel SoC FPGA Family:
-Enhanced GSRD for Intel Quartus Prime Pro Edition
 
 ## Build Steps:
 Refer to the README in repective folder for build steps.
