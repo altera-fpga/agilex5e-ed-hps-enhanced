@@ -41,5 +41,3 @@ Follow the steps below to build the design
 - [HW Build Readme](src/hw/README.md)
 - [SW Build Readme](src/sw/README.md)
   
-Enhanced GSRD Wiki
-- [Wiki](https://github.com/altera-innersource/applications.fpga.soc.agilex5e-ed-gsrd-enhanced/wiki)
