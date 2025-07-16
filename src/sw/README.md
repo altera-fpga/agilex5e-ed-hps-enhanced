@@ -1,6 +1,6 @@
-# Altera SoCFPGA Golden Software Reference Design
+# Agilex 5e HPS Enhanced System Example Design
 
-GSRD is an Embedded Linux Reference Distribution optimized for SoCFPGA.  
+Agilex 5e HPS Enhanced System Example Design is an Embedded Linux Reference Distribution optimized for SoCFPGA.  
 It is based on Yocto Project Poky reference distribution.
 
 ## Meta Layers
@@ -26,9 +26,9 @@ Dependencies
 ## Enhanced GSRD Setup
 
 1. Clone the repository  
-`$ https://github.com/altera-innersource/applications.fpga.soc.agilex5e-ed-gsrd-enhanced.git`
+`$ https://github.com/altera-fpga/agilex5e-ed-hps-enhanced.git`
 2. Sync the submodules  
-`$ cd applications.fpga.soc.agilex5e-ed-gsrd-enhanced/src/sw`  
+`$ cd agilex5e-ed-hps-enhanced/src/sw`  
 `$ git submodule update --init -r`
 3. Source the script to export component version (Linux,U-Boot,ATF,Machine,Image)  
 
