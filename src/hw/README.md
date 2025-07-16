@@ -1,10 +1,10 @@
-# a5ed065es-premium-devkit-oobe-legacy-baseline
+# Agilex 5e HPS Enhanced System Example Design (a5ed065es-premium-devkit-oobe-legacy-baseline)
 
-This is the baseline Golden Hardware Reference Design (GHRD) for Agilex 5 FPGA E-Series 065B Premium Development Kit with Out of Box Experience (OOBE) daughter card, which is also known as HPS Enablement Expansion Board.
+This is HPS Enhanced System Example Design Agilex 5 FPGA E-Series 065B Premium Development Kit with Out of Box Experience (OOBE) daughter card, which is also known as HPS Enablement Expansion Board.
 
 ## Description
 
-Agilex 5 GHRD is a reference design for Intel Agilex 5 System On Chip (SoC) FPGA.
+Agilex 5e HPS Enhanced System Example Design is for Intel Agilex 5 System On Chip (SoC) FPGA based on GHRD.
 
 The GHRD is part of the Golden System Reference Design (GSRD), which provides a complete solution, including exercising soft IP in the fabric, booting to U-Boot, then Linux, and running sample Linux applications.
 Refer to the [Agilex 5 E-Series Premium Development Kit GSRD](https://altera-fpga.github.io/latest/embedded-designs/agilex-5/e-series/premium/gsrd/ug-gsrd-agx5e-premium/) for information about GSRD.
@@ -31,7 +31,6 @@ This reference design demonstrates the following system integration between Hard
 - **Quartus Version**: 25.1
 - **Development Kit**: Agilex 5 FPGA E-Series 065B Premium Development Kit DK-A5E065BB32AES1
 - **Device Part**: A5ED013BB32AE5S
-- **Category**: Golden Hardware Reference Design (GHRD)
 - **Source**: Quartus Prime Pro
 - **URL**: https://www.github.com/altera-fpga/agilex5e-ed-gsrd
 - **Design Package**: a5ed065es-premium-devkit-oobe-legacy-baseline.zip
@@ -86,9 +85,9 @@ Refer to this [Guide](https://www.intel.com/content/www/us/en/docs/programmable/
 - Go to top folder
   - cd $TOP_FOLDER
 - Clone the eGHRD repository
-  - git clone https://github.com/altera-innersource/applications.fpga.soc.agilex5e-ed-gsrd-enhanced.git
+  - git clone https://github.com/altera-fpga/agilex5e-ed-hps-enhanced.git
 - Change directory RTL folder
-  - cd applications.fpga.soc.agilex5e-ed-gsrd-enhanced/src/hw
+  - cd agilex5e-ed-hps-enhanced/src/hw
 - Build the GHRD Design to generate SOF file using following command
   - make legacy_baseline-build
 - Build HPS WIPE Binary 
@@ -98,15 +97,15 @@ Refer to this [Guide](https://www.intel.com/content/www/us/en/docs/programmable/
     output_files/legacy_baseline_hps_debug.sof \
     -o hps_path=software/hps_debug/hps_wipe.ihex
 - The following files are created:
-  - $TOP_FOLDER/applications.fpga.soc.agilex5e-ed-gsrd-enhanced/src/hw/output_files/legacy_baseline.sof
-  - $TOP_FOLDER/applications.fpga.soc.agilex5e-ed-gsrd-enhanced/src/hw/output_files/legacy_baseline_hps_debug.sof
+  - $TOP_FOLDER/agilex5e-ed-hps-enhanced/src/hw/output_files/legacy_baseline.sof
+  - $TOP_FOLDER/agilex5e-ed-hps-enhanced/src/hw/output_files/legacy_baseline_hps_debug.sof
 
 - Build RBF File using following command
   - quartus_pfg -c output_files/legacy_baseline_hps_debug.sof ghrd_a5ed065bb32ae6sr0.rbf -o hps=1
 
 ## Binary location
-- The $TOP_FOLDER/applications.fpga.soc.agilex5e-ed-gsrd-enhanced/src/hw/output_files contains Following sof files
+- The $TOP_FOLDER/agilex5e-ed-hps-enhanced/src/hw/output_files contains Following sof files
   - legeacy_baseline.sof
   - legacy_baseline_hps_debug.sof
-- The $TOP_FOLDER/applications.fpga.soc.agilex5e-ed-gsrd-enhanced/src/hw/ contains rbf file
+- The $TOP_FOLDER/agilex5e-ed-hps-enhanced/src/hw/ contains rbf file
   - ghrd_a5ed065bb32ae6sr0.rbf
